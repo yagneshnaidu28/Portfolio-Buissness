@@ -3,50 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Alex Morgan - Senior Full-Stack Developer & UI/UX Designer Portfolio. Building scalable, performant web applications with modern technologies." />
-  <meta name="keywords" content="Portfolio, Full Stack Developer, Web Designer, JavaScript, React, Node.js, UI/UX" />
-  <meta name="author" content="Alex Morgan" />
-  <title>Alex Morgan | Full-Stack Developer & Designer</title>
+  <meta name="description" content="MALLARAPU GURUNADHA NAIDU - Leading Plantation Consultant & Supplier, Luxury Farmhouse Construction, Landscape Designing and Security Fencing Systems in Vadodara, Gujarat." />
+  <meta name="keywords" content="Plantation Consultant, Fruit Plants, Coconut Trees, Palm Trees, Foxtail Palm, Bottle Palm, Mango Plants Miyazaki, Kesar Mango, Farmhouse Construction, Fencing Systems, Solar Fencing, Landscaping Vadodara" />
+  <meta name="author" content="MALLARAPU GURUNADHA NAIDU" />
+  <title>M. Gurunadha Naidu | Plantation, Farmhouse Construction & Fencing Solutions</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <style>
     /* ==========================================================================
-       CSS VARIABLES & DESIGN SYSTEM
+       CSS VARIABLES & THEME SYSTEM (Eco-Luxe Agro & Civil)
        ========================================================================== */
     :root {
       /* Dark Theme (Default) */
-      --bg-primary: #090d16;
-      --bg-secondary: #0f172a;
-      --bg-tertiary: #1e293b;
-      --surface: rgba(30, 41, 59, 0.5);
-      --surface-hover: rgba(51, 65, 85, 0.6);
-      --surface-glass: rgba(15, 23, 42, 0.75);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --border-focus: rgba(99, 102, 241, 0.5);
+      --bg-primary: #060d09;
+      --bg-secondary: #0d1a12;
+      --bg-tertiary: #13271b;
+      --surface: rgba(19, 39, 27, 0.65);
+      --surface-hover: rgba(28, 56, 39, 0.85);
+      --surface-glass: rgba(10, 22, 15, 0.82);
+      --border-color: rgba(255, 255, 255, 0.09);
+      --border-focus: rgba(34, 197, 94, 0.5);
 
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-subtle: #64748b;
+      --text-main: #f0fdf4;
+      --text-muted: #a7f3d0;
+      --text-subtle: #6ee7b7;
+      --text-dim: #9ca3af;
 
-      --primary: #6366f1;
-      --primary-rgb: 99, 102, 241;
-      --primary-hover: #4f46e5;
-      --accent-cyan: #06b6d4;
-      --accent-purple: #a855f7;
-      --accent-emerald: #10b981;
+      --primary: #10b981;
+      --primary-rgb: 16, 185, 129;
+      --primary-hover: #059669;
+      --accent-gold: #f59e0b;
+      --accent-emerald: #22c55e;
+      --accent-lime: #84cc16;
+      --accent-amber: #d97706;
 
-      --gradient-brand: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #06b6d4 100%);
-      --gradient-subtle: linear-gradient(180deg, rgba(99, 102, 241, 0.1) 0%, transparent 100%);
-      --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+      --gradient-brand: linear-gradient(135deg, #10b981 0%, #059669 50%, #f59e0b 100%);
+      --gradient-hero: linear-gradient(180deg, rgba(6, 13, 9, 0.75) 0%, rgba(6, 13, 9, 0.95) 100%);
+      --gradient-card: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(16, 185, 129, 0.02) 100%);
 
-      --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
-      --shadow-md: 0 10px 25px -3px rgba(0, 0, 0, 0.3);
-      --shadow-lg: 0 20px 35px -5px rgba(0, 0, 0, 0.4);
-      --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.25);
+      --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
+      --shadow-glow: 0 0 30px rgba(16, 185, 129, 0.2);
 
       --radius-sm: 8px;
       --radius-md: 14px;
@@ -59,24 +61,25 @@
     }
 
     [data-theme="light"] {
-      --bg-primary: #f8fafc;
-      --bg-secondary: #f1f5f9;
-      --bg-tertiary: #e2e8f0;
-      --surface: rgba(255, 255, 255, 0.8);
-      --surface-hover: rgba(255, 255, 255, 0.95);
-      --surface-glass: rgba(255, 255, 255, 0.85);
-      --border-color: rgba(0, 0, 0, 0.08);
-      --border-focus: rgba(99, 102, 241, 0.5);
+      --bg-primary: #f6fbf7;
+      --bg-secondary: #ebf7ee;
+      --bg-tertiary: #dcf2e1;
+      --surface: rgba(255, 255, 255, 0.88);
+      --surface-hover: #ffffff;
+      --surface-glass: rgba(255, 255, 255, 0.92);
+      --border-color: rgba(6, 78, 59, 0.12);
+      --border-focus: rgba(16, 185, 129, 0.6);
 
-      --text-main: #0f172a;
-      --text-muted: #475569;
-      --text-subtle: #94a3b8;
+      --text-main: #062c17;
+      --text-muted: #166534;
+      --text-subtle: #15803d;
+      --text-dim: #4b5563;
 
-      --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-      --shadow-md: 0 10px 20px -3px rgba(0, 0, 0, 0.08);
-      --shadow-lg: 0 20px 30px -5px rgba(0, 0, 0, 0.1);
-      --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.15);
-      --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.6) 100%);
+      --shadow-sm: 0 4px 12px rgba(6, 78, 59, 0.06);
+      --shadow-md: 0 12px 24px rgba(6, 78, 59, 0.09);
+      --shadow-lg: 0 20px 35px rgba(6, 78, 59, 0.12);
+      --shadow-glow: 0 0 30px rgba(16, 185, 129, 0.15);
+      --gradient-card: linear-gradient(145deg, #ffffff 0%, #f0fdf4 100%);
     }
 
     /* ==========================================================================
@@ -103,12 +106,37 @@
       position: relative;
     }
 
+    /* Top Announcement Bar */
+    .announcement-bar {
+      background: linear-gradient(90deg, #064e3b 0%, #047857 50%, #b45309 100%);
+      color: #ffffff;
+      padding: 0.45rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      z-index: 1001;
+      position: relative;
+    }
+
+    .announcement-bar a {
+      color: #fef08a;
+      text-decoration: underline;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
     /* Scroll progress bar */
     #scroll-progress {
       position: fixed;
       top: 0;
       left: 0;
-      height: 3px;
+      height: 3.5px;
       background: var(--gradient-brand);
       z-index: 9999;
       width: 0%;
@@ -119,39 +147,39 @@
     .ambient-glow {
       position: fixed;
       border-radius: 50%;
-      filter: blur(120px);
+      filter: blur(130px);
       z-index: -1;
       pointer-events: none;
-      opacity: 0.4;
-      animation: pulseGlow 10s ease-in-out infinite alternate;
+      opacity: 0.35;
+      animation: ambientPulse 12s ease-in-out infinite alternate;
     }
     .glow-1 {
-      top: 10%;
+      top: 5%;
       left: 5%;
-      width: 450px;
-      height: 450px;
-      background: radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, transparent 70%);
-    }
-    .glow-2 {
-      top: 50%;
-      right: 5%;
       width: 500px;
       height: 500px;
-      background: radial-gradient(circle, rgba(168, 85, 247, 0.35) 0%, transparent 70%);
-      animation-delay: -5s;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.45) 0%, transparent 70%);
+    }
+    .glow-2 {
+      top: 45%;
+      right: 5%;
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.35) 0%, transparent 70%);
+      animation-delay: -6s;
     }
     .glow-3 {
-      bottom: 10%;
-      left: 20%;
-      width: 400px;
-      height: 400px;
-      background: radial-gradient(circle, rgba(6, 182, 212, 0.3) 0%, transparent 70%);
-      animation-delay: -3s;
+      bottom: 5%;
+      left: 25%;
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, rgba(34, 197, 94, 0.35) 0%, transparent 70%);
+      animation-delay: -4s;
     }
 
-    @keyframes pulseGlow {
-      0% { transform: scale(1) translate(0, 0); opacity: 0.3; }
-      100% { transform: scale(1.15) translate(30px, 20px); opacity: 0.5; }
+    @keyframes ambientPulse {
+      0% { transform: scale(1) translate(0, 0); opacity: 0.25; }
+      100% { transform: scale(1.2) translate(30px, 30px); opacity: 0.45; }
     }
 
     /* Typography */
@@ -159,11 +187,11 @@
       font-family: var(--font-heading);
       color: var(--text-main);
       font-weight: 700;
-      line-height: 1.2;
+      line-height: 1.25;
     }
 
     p {
-      color: var(--text-muted);
+      color: var(--text-dim);
     }
 
     a {
@@ -176,7 +204,7 @@
       list-style: none;
     }
 
-    button, input, textarea {
+    button, input, select, textarea {
       font-family: inherit;
       border: none;
       outline: none;
@@ -184,14 +212,19 @@
 
     .container {
       width: 100%;
-      max-width: 1200px;
+      max-width: 1240px;
       margin: 0 auto;
       padding: 0 1.5rem;
     }
 
+    .section {
+      padding: 6rem 0;
+      position: relative;
+    }
+
     .section-header {
       text-align: center;
-      max-width: 650px;
+      max-width: 780px;
       margin: 0 auto 3.5rem;
     }
 
@@ -199,27 +232,27 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      padding: 0.35rem 0.9rem;
-      background: rgba(99, 102, 241, 0.1);
-      border: 1px solid rgba(99, 102, 241, 0.25);
+      padding: 0.4rem 1rem;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
       color: var(--primary);
       border-radius: var(--radius-full);
       font-size: 0.85rem;
-      font-weight: 600;
+      font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
       margin-bottom: 0.85rem;
     }
 
     .section-title {
-      font-size: 2.25rem;
+      font-size: 2.35rem;
       margin-bottom: 1rem;
       letter-spacing: -0.02em;
     }
 
     .section-subtitle {
-      font-size: 1.05rem;
-      color: var(--text-muted);
+      font-size: 1.08rem;
+      color: var(--text-dim);
     }
 
     .gradient-text {
@@ -228,31 +261,32 @@
       -webkit-text-fill-color: transparent;
     }
 
-    /* Common Buttons */
+    /* Buttons */
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 0.6rem;
-      padding: 0.8rem 1.6rem;
+      padding: 0.85rem 1.75rem;
       border-radius: var(--radius-md);
       font-size: 0.95rem;
-      font-weight: 600;
+      font-weight: 700;
       cursor: pointer;
       transition: var(--transition);
       position: relative;
       overflow: hidden;
+      text-align: center;
     }
 
     .btn-primary {
       background: var(--gradient-brand);
       color: #ffffff;
-      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
     }
 
     .btn-primary:hover {
       transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+      box-shadow: 0 10px 28px rgba(16, 185, 129, 0.5);
     }
 
     .btn-secondary {
@@ -264,105 +298,104 @@
 
     .btn-secondary:hover {
       background: var(--surface-hover);
-      border-color: rgba(99, 102, 241, 0.4);
+      border-color: var(--primary);
       transform: translateY(-2px);
+    }
+
+    .btn-whatsapp {
+      background: #25d366;
+      color: #ffffff;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+    }
+
+    .btn-whatsapp:hover {
+      background: #1eb956;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(37, 211, 102, 0.5);
     }
 
     .btn-sm {
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 1.1rem;
       font-size: 0.85rem;
-    }
-
-    .btn-icon {
-      width: 42px;
-      height: 42px;
-      border-radius: var(--radius-md);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      color: var(--text-main);
-      cursor: pointer;
-      transition: var(--transition);
-    }
-
-    .btn-icon:hover {
-      background: var(--surface-hover);
-      border-color: var(--primary);
-      color: var(--primary);
-      transform: translateY(-2px);
     }
 
     /* ==========================================================================
        HEADER & NAVIGATION
        ========================================================================== */
     .header {
-      position: fixed;
+      position: sticky;
       top: 1rem;
-      left: 0;
-      right: 0;
       z-index: 1000;
       padding: 0 1.5rem;
+      margin-bottom: -5rem;
       transition: var(--transition);
     }
 
     .nav-container {
-      max-width: 1100px;
+      max-width: 1200px;
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0.75rem 1.5rem;
+      padding: 0.8rem 1.75rem;
       background: var(--surface-glass);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-full);
       box-shadow: var(--shadow-md);
-      transition: var(--transition);
     }
 
     .nav-brand {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
-      font-family: var(--font-heading);
-      font-size: 1.25rem;
-      font-weight: 800;
-      color: var(--text-main);
+      gap: 0.75rem;
     }
 
-    .nav-brand-logo {
-      width: 34px;
-      height: 34px;
+    .nav-logo-icon {
+      width: 40px;
+      height: 40px;
       background: var(--gradient-brand);
-      border-radius: 10px;
+      border-radius: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
       font-weight: 800;
-      font-size: 1.1rem;
-      box-shadow: 0 4px 10px rgba(99, 102, 241, 0.4);
+      font-size: 1.25rem;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+    }
+
+    .nav-brand-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.1;
+    }
+    .nav-brand-sub {
+      font-size: 0.72rem;
+      color: var(--accent-gold);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     .nav-menu {
       display: flex;
       align-items: center;
-      gap: 1.75rem;
+      gap: 1.5rem;
     }
 
     .nav-link {
       font-size: 0.9rem;
-      font-weight: 500;
-      color: var(--text-muted);
+      font-weight: 600;
+      color: var(--text-dim);
       position: relative;
-      padding: 0.3rem 0;
+      padding: 0.35rem 0;
     }
 
     .nav-link:hover, .nav-link.active {
-      color: var(--text-main);
+      color: var(--primary);
     }
 
     .nav-link::after {
@@ -403,7 +436,7 @@
 
     .theme-toggle-btn:hover {
       background: var(--surface-hover);
-      color: var(--primary);
+      color: var(--accent-gold);
       transform: rotate(15deg);
     }
 
@@ -419,16 +452,16 @@
     /* Mobile Menu Drawer */
     .mobile-menu {
       position: fixed;
-      top: 5rem;
+      top: 6rem;
       left: 1.5rem;
       right: 1.5rem;
       background: var(--bg-secondary);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-lg);
-      padding: 1.5rem;
+      padding: 1.75rem;
       display: flex;
       flex-direction: column;
-      gap: 1.25rem;
+      gap: 1.15rem;
       box-shadow: var(--shadow-lg);
       transform: translateY(-20px);
       opacity: 0;
@@ -444,9 +477,9 @@
     }
 
     .mobile-nav-link {
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       font-weight: 600;
-      color: var(--text-muted);
+      color: var(--text-dim);
       padding: 0.5rem 0;
       border-bottom: 1px solid var(--border-color);
     }
@@ -460,83 +493,73 @@
        ========================================================================== */
     .hero {
       min-height: 100vh;
-      padding: 8.5rem 0 5rem;
+      padding: 9.5rem 0 6rem;
       display: flex;
       align-items: center;
       position: relative;
+      background: radial-gradient(circle at 50% 20%, rgba(16, 185, 129, 0.15), transparent 60%);
     }
 
     .hero-grid {
       display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 3.5rem;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 4rem;
       align-items: center;
     }
 
-    .hero-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .hero-status-badge {
+    .hero-badge {
       display: inline-flex;
       align-items: center;
       gap: 0.6rem;
-      padding: 0.4rem 1rem;
-      background: rgba(16, 185, 129, 0.1);
-      border: 1px solid rgba(16, 185, 129, 0.25);
+      padding: 0.45rem 1.1rem;
+      background: rgba(16, 185, 129, 0.14);
+      border: 1px solid rgba(16, 185, 129, 0.35);
       border-radius: var(--radius-full);
       color: var(--accent-emerald);
-      font-size: 0.85rem;
-      font-weight: 600;
+      font-size: 0.88rem;
+      font-weight: 700;
       margin-bottom: 1.5rem;
     }
 
-    .status-dot {
+    .badge-dot {
       width: 8px;
       height: 8px;
-      background-color: var(--accent-emerald);
+      background: var(--accent-emerald);
       border-radius: 50%;
       position: relative;
     }
-
-    .status-dot::after {
+    .badge-dot::after {
       content: '';
       position: absolute;
-      top: -2px;
-      left: -2px;
-      right: -2px;
-      bottom: -2px;
+      inset: -3px;
       border-radius: 50%;
       background: inherit;
-      animation: ripple 2s infinite ease-out;
+      animation: ping 2s infinite ease-out;
     }
-
-    @keyframes ripple {
+    @keyframes ping {
       0% { transform: scale(1); opacity: 0.8; }
-      100% { transform: scale(2.5); opacity: 0; }
+      100% { transform: scale(2.6); opacity: 0; }
     }
 
     .hero-title {
       font-size: 3.5rem;
       line-height: 1.15;
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
       letter-spacing: -0.03em;
     }
 
-    .hero-description {
+    .hero-desc {
       font-size: 1.15rem;
-      color: var(--text-muted);
-      margin-bottom: 2rem;
-      max-width: 540px;
+      color: var(--text-dim);
+      margin-bottom: 2.25rem;
+      max-width: 580px;
     }
 
-    .hero-buttons {
+    .hero-ctas {
       display: flex;
       align-items: center;
       gap: 1rem;
-      margin-bottom: 3rem;
+      margin-bottom: 3.5rem;
       flex-wrap: wrap;
     }
 
@@ -544,414 +567,213 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
-      width: 100%;
-      max-width: 520px;
       padding-top: 2rem;
       border-top: 1px solid var(--border-color);
+      max-width: 560px;
     }
 
-    .stat-item {
+    .hero-stat-card {
       display: flex;
       flex-direction: column;
     }
 
-    .stat-number {
+    .hero-stat-num {
       font-family: var(--font-heading);
       font-size: 2rem;
       font-weight: 800;
-      color: var(--text-main);
+      color: var(--accent-gold);
       line-height: 1.1;
     }
 
-    .stat-label {
+    .hero-stat-label {
       font-size: 0.85rem;
-      color: var(--text-muted);
+      color: var(--text-dim);
       margin-top: 0.25rem;
-    }
-
-    /* Hero Visual Card */
-    .hero-visual {
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-
-    .hero-card {
-      width: 100%;
-      max-width: 420px;
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 1.75rem;
-      backdrop-filter: blur(20px);
-      box-shadow: var(--shadow-lg);
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-    .hero-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .code-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 1.25rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    .code-dots {
-      display: flex;
-      gap: 6px;
-    }
-
-    .code-dot {
-      width: 11px;
-      height: 11px;
-      border-radius: 50%;
-    }
-    .dot-red { background: #ef4444; }
-    .dot-yellow { background: #eab308; }
-    .dot-green { background: #22c55e; }
-
-    .code-file-name {
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: var(--text-subtle);
-    }
-
-    .code-body {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 0.85rem;
-      line-height: 1.7;
-      color: var(--text-muted);
-    }
-
-    .token-keyword { color: #f43f5e; }
-    .token-var { color: #38bdf8; }
-    .token-prop { color: #a78bfa; }
-    .token-string { color: #34d399; }
-    .token-bool { color: #fbbf24; }
-
-    .floating-badge {
-      position: absolute;
-      background: var(--surface-glass);
-      border: 1px solid var(--border-color);
-      backdrop-filter: blur(12px);
-      padding: 0.75rem 1rem;
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-md);
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      animation: float 4s ease-in-out infinite;
-    }
-
-    .badge-top {
-      top: -20px;
-      right: -20px;
-    }
-
-    .badge-bottom {
-      bottom: -20px;
-      left: -20px;
-      animation-delay: -2s;
-    }
-
-    .badge-icon {
-      width: 36px;
-      height: 36px;
-      border-radius: 10px;
-      background: rgba(99, 102, 241, 0.15);
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .badge-text-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--text-main);
-    }
-    .badge-text-sub {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
-
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-
-    /* ==========================================================================
-       ABOUT SECTION
-       ========================================================================== */
-    .section {
-      padding: 6rem 0;
-      position: relative;
-    }
-
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3.5rem;
-      align-items: center;
-    }
-
-    .about-image-wrapper {
-      position: relative;
-    }
-
-    .about-image-card {
-      width: 100%;
-      height: 440px;
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      position: relative;
-      box-shadow: var(--shadow-lg);
-    }
-
-    .about-image-card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.5s ease;
-    }
-
-    .about-image-card:hover img {
-      transform: scale(1.05);
-    }
-
-    .experience-tag-floating {
-      position: absolute;
-      bottom: 2rem;
-      left: 2rem;
-      background: var(--surface-glass);
-      backdrop-filter: blur(16px);
-      padding: 1rem 1.5rem;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-color);
-      box-shadow: var(--shadow-lg);
-    }
-
-    .exp-years {
-      font-size: 2rem;
-      font-weight: 800;
-      color: var(--primary);
-      line-height: 1;
-    }
-
-    .exp-desc {
-      font-size: 0.85rem;
-      color: var(--text-muted);
       font-weight: 500;
     }
 
-    .about-text h3 {
-      font-size: 1.85rem;
-      margin-bottom: 1.25rem;
-      letter-spacing: -0.02em;
-    }
-
-    .about-text p {
-      margin-bottom: 1.25rem;
-      font-size: 1rem;
-      color: var(--text-muted);
-    }
-
-    .about-highlights {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-      margin: 2rem 0;
-    }
-
-    .highlight-card {
+    /* Hero Visual Feature Box */
+    .hero-visual-card {
       background: var(--surface);
       border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      backdrop-filter: blur(20px);
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .hero-image-slider {
+      width: 100%;
+      height: 380px;
       border-radius: var(--radius-md);
-      padding: 1rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-image-slider img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.6s ease;
+    }
+
+    .hero-visual-card:hover .hero-image-slider img {
+      transform: scale(1.05);
+    }
+
+    .hero-floating-pill {
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--surface-glass);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius-full);
+      box-shadow: var(--shadow-md);
       display: flex;
       align-items: center;
       gap: 0.85rem;
-      transition: var(--transition);
-    }
-
-    .highlight-card:hover {
-      background: var(--surface-hover);
-      border-color: rgba(99, 102, 241, 0.4);
-      transform: translateY(-2px);
-    }
-
-    .highlight-icon {
-      width: 36px;
-      height: 36px;
-      border-radius: 8px;
-      background: rgba(99, 102, 241, 0.12);
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .highlight-info h4 {
-      font-size: 0.95rem;
-      font-weight: 600;
-    }
-
-    .highlight-info p {
-      font-size: 0.8rem;
-      margin: 0;
-      color: var(--text-subtle);
+      white-space: nowrap;
     }
 
     /* ==========================================================================
-       SKILLS SECTION
+       CORE PILLARS / SERVICES OVERVIEW
        ========================================================================== */
-    .skills-tabs {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      margin-bottom: 2.5rem;
-      flex-wrap: wrap;
-    }
-
-    .tab-btn {
-      padding: 0.6rem 1.25rem;
-      border-radius: var(--radius-full);
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      color: var(--text-muted);
-      font-weight: 600;
-      font-size: 0.9rem;
-      cursor: pointer;
-      transition: var(--transition);
-    }
-
-    .tab-btn:hover, .tab-btn.active {
-      background: var(--primary);
-      color: #ffffff;
-      border-color: var(--primary);
-      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
-    }
-
-    .skills-grid {
+    .pillars-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-      gap: 1.25rem;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
     }
 
-    .skill-card {
+    .pillar-card {
       background: var(--surface);
       border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 1.5rem 1rem;
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+      transition: var(--transition);
       display: flex;
       flex-direction: column;
-      align-items: center;
-      text-align: center;
-      transition: var(--transition);
       position: relative;
       overflow: hidden;
     }
 
-    .skill-card:hover {
-      transform: translateY(-6px);
-      border-color: rgba(99, 102, 241, 0.4);
-      background: var(--surface-hover);
+    .pillar-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--primary);
       box-shadow: var(--shadow-glow);
     }
 
-    .skill-icon-wrap {
-      width: 52px;
-      height: 52px;
-      border-radius: 12px;
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid var(--border-color);
+    .pillar-icon-box {
+      width: 58px;
+      height: 58px;
+      border-radius: 14px;
+      background: rgba(16, 185, 129, 0.14);
+      color: var(--primary);
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .pillar-card:nth-child(2) .pillar-icon-box {
+      background: rgba(245, 158, 11, 0.14);
+      color: var(--accent-gold);
+    }
+
+    .pillar-card:nth-child(3) .pillar-icon-box {
+      background: rgba(6, 182, 212, 0.14);
+      color: #06b6d4;
+    }
+
+    .pillar-title {
+      font-size: 1.45rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .pillar-desc {
+      font-size: 0.95rem;
+      color: var(--text-dim);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .pillar-features {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .pillar-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.88rem;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    .check-icon {
       color: var(--primary);
-      transition: var(--transition);
-    }
-
-    .skill-card:hover .skill-icon-wrap {
-      background: rgba(99, 102, 241, 0.15);
-      transform: scale(1.1);
-    }
-
-    .skill-name {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 0.4rem;
-    }
-
-    .skill-level {
-      font-size: 0.8rem;
-      color: var(--text-subtle);
-    }
-
-    .skill-progress-bar {
-      width: 100%;
-      height: 4px;
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: var(--radius-full);
-      margin-top: 0.85rem;
-      overflow: hidden;
-    }
-
-    .skill-progress-fill {
-      height: 100%;
-      background: var(--gradient-brand);
-      border-radius: var(--radius-full);
-      transition: width 1s ease-in-out;
+      flex-shrink: 0;
     }
 
     /* ==========================================================================
-       PROJECTS SECTION
+       PLANT NURSERY SHOWCASE (3 CATEGORIES)
        ========================================================================== */
-    .project-filters {
+    .plant-category-section {
+      padding: 5rem 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .category-header-wrap {
       display: flex;
-      justify-content: center;
-      gap: 0.75rem;
+      align-items: flex-end;
+      justify-content: space-between;
       margin-bottom: 2.5rem;
       flex-wrap: wrap;
+      gap: 1.5rem;
     }
 
-    .filter-btn {
-      padding: 0.55rem 1.25rem;
+    .category-info {
+      max-width: 650px;
+    }
+
+    .category-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.25rem 0.75rem;
       border-radius: var(--radius-full);
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      color: var(--text-muted);
-      font-size: 0.85rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: var(--transition);
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
     }
 
-    .filter-btn:hover, .filter-btn.active {
-      background: var(--primary);
-      color: white;
-      border-color: var(--primary);
-      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+    .category-title {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
 
-    .projects-grid {
+    .category-desc {
+      font-size: 0.95rem;
+      color: var(--text-dim);
+    }
+
+    /* Plant Card Grid */
+    .plants-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.75rem;
     }
 
-    .project-card {
+    .plant-card {
       background: var(--surface);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-lg);
@@ -960,351 +782,240 @@
       display: flex;
       flex-direction: column;
       box-shadow: var(--shadow-sm);
+      cursor: pointer;
     }
 
-    .project-card:hover {
-      transform: translateY(-8px);
-      border-color: rgba(99, 102, 241, 0.4);
+    .plant-card:hover {
+      transform: translateY(-7px);
+      border-color: var(--primary);
       box-shadow: var(--shadow-glow);
     }
 
-    .project-preview {
-      width: 100%;
-      height: 220px;
+    .plant-img-wrapper {
       position: relative;
-      overflow: hidden;
+      width: 100%;
+      height: 240px;
       background: var(--bg-tertiary);
+      overflow: hidden;
     }
 
-    .project-preview img {
+    .plant-img-wrapper img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: transform 0.5s ease;
+      display: block;
+      transition: transform 0.6s ease;
     }
 
-    .project-card:hover .project-preview img {
+    .plant-card:hover .plant-img-wrapper img {
       transform: scale(1.08);
     }
 
-    .project-overlay {
+    .plant-badge-overlay {
       position: absolute;
-      inset: 0;
-      background: rgba(9, 13, 22, 0.75);
-      backdrop-filter: blur(4px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-      opacity: 0;
-      transition: var(--transition);
+      top: 0.85rem;
+      left: 0.85rem;
+      background: var(--surface-glass);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-color);
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-main);
     }
 
-    .project-card:hover .project-overlay {
-      opacity: 1;
-    }
-
-    .project-content {
-      padding: 1.5rem;
+    .plant-body {
+      padding: 1.25rem;
       display: flex;
       flex-direction: column;
       flex-grow: 1;
     }
 
-    .project-tags {
+    .plant-name {
+      font-size: 1.18rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+
+    .plant-botanical {
+      font-size: 0.82rem;
+      color: var(--accent-gold);
+      font-style: italic;
+      margin-bottom: 0.75rem;
+    }
+
+    .plant-meta-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 0.85rem;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
     }
 
-    .project-tag {
+    .plant-tag {
       font-size: 0.75rem;
-      padding: 0.2rem 0.6rem;
+      padding: 0.2rem 0.55rem;
       border-radius: var(--radius-full);
-      background: rgba(99, 102, 241, 0.1);
-      color: var(--primary);
-      font-weight: 600;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-dim);
     }
 
-    .project-title {
-      font-size: 1.25rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .project-desc {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      margin-bottom: 1.25rem;
-      flex-grow: 1;
-    }
-
-    .project-footer {
+    .plant-card-footer {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding-top: 1rem;
+      padding-top: 0.85rem;
       border-top: 1px solid var(--border-color);
+      margin-top: auto;
     }
 
-    .project-link-action {
+    .plant-action-text {
       font-size: 0.85rem;
-      font-weight: 600;
+      font-weight: 700;
       color: var(--primary);
       display: flex;
       align-items: center;
       gap: 0.35rem;
     }
 
-    .project-link-action:hover {
-      gap: 0.6rem;
-      color: var(--accent-cyan);
-    }
-
     /* ==========================================================================
-       EXPERIENCE & TIMELINE
+       FARMHOUSE CONSTRUCTION & CIVIL WORKS
        ========================================================================== */
-    .timeline {
-      max-width: 800px;
-      margin: 0 auto;
-      position: relative;
-      padding-left: 2rem;
+    .farmhouse-process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-top: 3rem;
     }
 
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 7px;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: linear-gradient(180deg, var(--primary) 0%, rgba(99, 102, 241, 0.1) 100%);
-    }
-
-    .timeline-item {
-      position: relative;
-      margin-bottom: 2.5rem;
-    }
-
-    .timeline-item:last-child {
-      margin-bottom: 0;
-    }
-
-    .timeline-dot {
-      position: absolute;
-      left: -2rem;
-      top: 6px;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background: var(--bg-primary);
-      border: 3px solid var(--primary);
-      box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
-    }
-
-    .timeline-card {
+    .process-step-card {
       background: var(--surface);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-md);
-      padding: 1.5rem;
+      padding: 1.75rem;
+      position: relative;
       transition: var(--transition);
     }
 
-    .timeline-card:hover {
-      border-color: rgba(99, 102, 241, 0.4);
-      transform: translateX(6px);
-      background: var(--surface-hover);
+    .process-step-card:hover {
+      border-color: var(--accent-gold);
+      transform: translateY(-4px);
     }
 
-    .timeline-meta {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 0.6rem;
+    .process-number {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: rgba(245, 158, 11, 0.25);
+      line-height: 1;
+      margin-bottom: 0.5rem;
     }
 
-    .timeline-role {
+    .process-title {
       font-size: 1.15rem;
-      font-weight: 700;
-      color: var(--text-main);
+      margin-bottom: 0.5rem;
     }
 
-    .timeline-date {
-      font-size: 0.8rem;
-      font-weight: 600;
-      padding: 0.25rem 0.75rem;
-      background: rgba(99, 102, 241, 0.1);
-      border-radius: var(--radius-full);
-      color: var(--primary);
-    }
-
-    .timeline-company {
-      font-size: 0.95rem;
-      color: var(--accent-cyan);
-      font-weight: 600;
-      margin-bottom: 0.75rem;
-    }
-
-    .timeline-desc {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      line-height: 1.6;
+    .process-desc {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      line-height: 1.5;
     }
 
     /* ==========================================================================
-       TESTIMONIALS SECTION
+       FENCING SYSTEMS SECTION
        ========================================================================== */
-    .testimonials-grid {
+    .fencing-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
+      margin-top: 2rem;
     }
 
-    .testimonial-card {
+    .fencing-card {
       background: var(--surface);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-lg);
       padding: 2rem;
+      transition: var(--transition);
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      transition: var(--transition);
-      position: relative;
     }
 
-    .testimonial-card:hover {
-      transform: translateY(-5px);
-      border-color: rgba(99, 102, 241, 0.3);
-      box-shadow: var(--shadow-md);
+    .fencing-card:hover {
+      border-color: #06b6d4;
+      transform: translateY(-6px);
+      box-shadow: 0 10px 30px rgba(6, 182, 212, 0.2);
     }
 
-    .testimonial-stars {
-      display: flex;
-      gap: 4px;
-      color: #fbbf24;
-      margin-bottom: 1rem;
-    }
-
-    .testimonial-quote {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      font-style: italic;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-    }
-
-    .testimonial-author {
-      display: flex;
-      align-items: center;
-      gap: 0.85rem;
-    }
-
-    .author-avatar {
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: var(--gradient-brand);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .fencing-tag {
+      font-size: 0.75rem;
       font-weight: 700;
-      color: white;
-      font-size: 1rem;
-    }
-
-    .author-name {
-      font-size: 0.95rem;
-      font-weight: 700;
-    }
-
-    .author-role {
-      font-size: 0.8rem;
-      color: var(--text-subtle);
-    }
-
-    /* ==========================================================================
-       CONTACT SECTION
-       ========================================================================== */
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 0.9fr 1.1fr;
-      gap: 3.5rem;
-    }
-
-    .contact-info-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      margin-top: 2rem;
-    }
-
-    .contact-item {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-      padding: 1.25rem;
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      transition: var(--transition);
-      cursor: pointer;
-    }
-
-    .contact-item:hover {
-      background: var(--surface-hover);
-      border-color: var(--primary);
-      transform: translateY(-2px);
-    }
-
-    .contact-icon {
-      width: 44px;
-      height: 44px;
-      border-radius: 12px;
-      background: rgba(99, 102, 241, 0.12);
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .contact-details h4 {
-      font-size: 0.85rem;
-      color: var(--text-subtle);
+      color: #06b6d4;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
     }
 
-    .contact-details p {
-      font-size: 1rem;
-      font-weight: 600;
-      color: var(--text-main);
-      margin: 0;
+    .fencing-title {
+      font-size: 1.35rem;
+      margin-bottom: 0.75rem;
     }
 
-    .contact-form-card {
-      background: var(--surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 2.25rem;
-      box-shadow: var(--shadow-lg);
-    }
-
-    .form-group {
+    .fencing-desc {
+      font-size: 0.9rem;
+      color: var(--text-dim);
       margin-bottom: 1.25rem;
     }
 
-    .form-label {
-      display: block;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--text-main);
-      margin-bottom: 0.4rem;
+    .fencing-specs {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: auto;
     }
 
-    .form-input, .form-textarea {
+    .spec-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      color: var(--text-main);
+    }
+
+    /* ==========================================================================
+       QUOTE ESTIMATOR / CALCULATOR
+       ========================================================================== */
+    .calculator-wrapper {
+      background: var(--surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .calc-form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .calc-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .calc-label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .calc-input, .calc-select {
       width: 100%;
       padding: 0.85rem 1.1rem;
       background: var(--bg-tertiary);
@@ -1315,54 +1026,110 @@
       transition: var(--transition);
     }
 
-    .form-input:focus, .form-textarea:focus {
+    .calc-input:focus, .calc-select:focus {
       border-color: var(--primary);
-      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
     }
 
-    .form-textarea {
+    .calc-result-box {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    /* ==========================================================================
+       CONTACT & LOCATION
+       ========================================================================== */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 3.5rem;
+      align-items: flex-start;
+    }
+
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+    }
+
+    .contact-info-block {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .contact-icon-wrap {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-block-text h4 {
+      font-size: 0.95rem;
+      color: var(--text-subtle);
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .contact-block-text p {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* Form Styles */
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 0.4rem;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.85rem 1.1rem;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      color: var(--text-main);
+      font-size: 0.95rem;
+      transition: var(--transition);
+    }
+
+    .form-control:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+    }
+
+    textarea.form-control {
       resize: vertical;
       min-height: 120px;
     }
 
     /* ==========================================================================
-       FOOTER
-       ========================================================================== */
-    .footer {
-      border-top: 1px solid var(--border-color);
-      padding: 3rem 0 2rem;
-      background: var(--bg-secondary);
-    }
-
-    .footer-content {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .footer-socials {
-      display: flex;
-      gap: 0.75rem;
-    }
-
-    .footer-bottom {
-      text-align: center;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border-color);
-      font-size: 0.85rem;
-      color: var(--text-subtle);
-    }
-
-    /* ==========================================================================
-       PROJECT MODAL & TOAST NOTIFICATION
+       MODAL LIGHTBOX & TOAST
        ========================================================================== */
     .modal-backdrop {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.85);
       backdrop-filter: blur(8px);
       z-index: 2000;
       display: flex;
@@ -1383,7 +1150,7 @@
       background: var(--bg-secondary);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-lg);
-      max-width: 650px;
+      max-width: 750px;
       width: 100%;
       padding: 2rem;
       position: relative;
@@ -1405,14 +1172,16 @@
       background: var(--surface);
       border: 1px solid var(--border-color);
       color: var(--text-main);
-      width: 34px;
-      height: 34px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      font-size: 1.25rem;
       transition: var(--transition);
+      z-index: 10;
     }
 
     .modal-close-btn:hover {
@@ -1420,12 +1189,50 @@
       color: white;
     }
 
-    .toast {
+    .modal-img-preview {
+      width: 100%;
+      max-height: 420px;
+      border-radius: var(--radius-md);
+      object-fit: cover;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Floating WhatsApp Button */
+    .floating-whatsapp {
       position: fixed;
       bottom: 2rem;
       right: 2rem;
+      width: 60px;
+      height: 60px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+      z-index: 1500;
+      transition: var(--transition);
+      animation: floatBtn 3s ease-in-out infinite alternate;
+    }
+
+    .floating-whatsapp:hover {
+      transform: scale(1.1);
+      box-shadow: 0 12px 30px rgba(37, 211, 102, 0.65);
+    }
+
+    @keyframes floatBtn {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-8px); }
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 2rem;
       background: var(--bg-secondary);
-      border: 1px solid var(--accent-emerald);
+      border: 1px solid var(--primary);
       color: var(--text-main);
       padding: 1rem 1.5rem;
       border-radius: var(--radius-md);
@@ -1445,32 +1252,77 @@
     }
 
     /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-color);
+      padding: 4.5rem 0 2rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 3rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .footer-col h4 {
+      font-size: 1.1rem;
+      margin-bottom: 1.25rem;
+      color: var(--text-main);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-links a {
+      color: var(--text-dim);
+      font-size: 0.9rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--primary);
+      padding-left: 4px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border-color);
+      padding-top: 1.75rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+    }
+
+    /* ==========================================================================
        RESPONSIVE DESIGN (MEDIA QUERIES)
        ========================================================================== */
-    @media (max-width: 992px) {
-      .hero-grid, .about-grid, .contact-grid {
+    @media (max-width: 1024px) {
+      .hero-grid, .pillars-grid, .fencing-grid, .contact-grid, .footer-grid {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2.5rem;
+      }
+      .farmhouse-process-grid {
+        grid-template-columns: repeat(2, 1fr);
       }
       .hero {
-        padding-top: 7rem;
+        padding-top: 8rem;
         text-align: center;
       }
-      .hero-content {
-        align-items: center;
+      .hero-title {
+        font-size: 2.75rem;
       }
-      .hero-description {
-        margin-left: auto;
-        margin-right: auto;
+      .hero-desc {
+        margin: 0 auto 2rem;
       }
-      .hero-buttons {
+      .hero-ctas {
         justify-content: center;
       }
       .hero-stats {
         margin: 0 auto;
-      }
-      .about-image-card {
-        height: 360px;
       }
     }
 
@@ -1482,180 +1334,153 @@
         display: block;
       }
       .hero-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
       }
-      .section {
-        padding: 4rem 0;
-      }
-      .section-title {
-        font-size: 1.85rem;
-      }
-      .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .projects-grid {
+      .farmhouse-process-grid {
         grid-template-columns: 1fr;
       }
-      .about-highlights {
+      .calc-form-grid {
         grid-template-columns: 1fr;
+      }
+      .plants-grid {
+        grid-template-columns: 1fr;
+      }
+      .announcement-bar {
+        font-size: 0.78rem;
+        gap: 0.5rem;
       }
     }
   </style>
 </head>
 <body>
 
-  <!-- Scroll Progress Bar -->
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span>🌱 <strong>MALLARAPU GURUNADHA NAIDU</strong> — Plantation Consultant & Supplier | Farmhouse Civil & Fencing Works</span>
+    <span>📍 Vadodara, Gujarat</span>
+    <a href="tel:9898418582">📞 Call: +91 9898418582</a>
+    <a href="Images/List_Plants.pdf" target="_blank" download>📄 Download Plant Catalog (PDF)</a>
+  </div>
+
+  <!-- Scroll Progress Indicator -->
   <div id="scroll-progress" aria-hidden="true"></div>
 
-  <!-- Ambient Glow Backgrounds -->
+  <!-- Ambient Glow Effects -->
   <div class="ambient-glow glow-1" aria-hidden="true"></div>
   <div class="ambient-glow glow-2" aria-hidden="true"></div>
   <div class="ambient-glow glow-3" aria-hidden="true"></div>
 
   <!-- ==========================================================================
-       HEADER & NAVIGATION
+       STICKY HEADER & NAVIGATION
        ========================================================================== -->
   <header class="header">
     <div class="nav-container">
-      <a href="#hero" class="nav-brand" aria-label="Alex Morgan Portfolio Home">
-        <div class="nav-brand-logo">A</div>
-        <span>Alex.dev</span>
+      <a href="#home" class="nav-brand">
+        <div class="nav-logo-icon">🌿</div>
+        <div>
+          <div class="nav-brand-title">M. G. NAIDU</div>
+          <div class="nav-brand-sub">Plantation & Farmhouse</div>
+        </div>
       </a>
 
       <nav class="nav-menu" aria-label="Main Navigation">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#fruit-plants" class="nav-link">Fruit Plants</a>
+        <a href="#palm-trees" class="nav-link">Palms & Coconut</a>
+        <a href="#flower-plants" class="nav-link">Flowers & Decorative</a>
+        <a href="#farmhouse" class="nav-link">Farmhouse</a>
+        <a href="#fencing" class="nav-link">Fencing</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
       <div class="nav-actions">
         <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light/dark theme" title="Toggle Theme">
-          <!-- Sun / Moon SVG Icon dynamically swapped in JS -->
-          <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
+          <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
         </button>
-        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+
+        <a href="https://wa.me/919898418582?text=Hello%20Mr.%20Gurunadha%20Naidu,%20I%20am%20interested%20in%20your%20Plantation,%20Farmhouse,%20or%20Fencing%20services." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          WhatsApp
+        </a>
+
         <button id="hamburger-btn" class="hamburger-btn" aria-label="Open Navigation Menu">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Navigation Drawer -->
+    <!-- Mobile Drawer -->
     <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
-      <a href="#about" class="mobile-nav-link">About</a>
-      <a href="#skills" class="mobile-nav-link">Skills</a>
-      <a href="#projects" class="mobile-nav-link">Projects</a>
-      <a href="#experience" class="mobile-nav-link">Experience</a>
-      <a href="#contact" class="mobile-nav-link">Contact</a>
-      <a href="#contact" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">Hire Me</a>
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#services" class="mobile-nav-link">Services & Capabilities</a>
+      <a href="#fruit-plants" class="mobile-nav-link">Fruit Plants & Orchards</a>
+      <a href="#palm-trees" class="mobile-nav-link">Palms & Coconut Varieties</a>
+      <a href="#flower-plants" class="mobile-nav-link">Flowers & Decorative Trees</a>
+      <a href="#farmhouse" class="mobile-nav-link">Farmhouse Construction</a>
+      <a href="#fencing" class="mobile-nav-link">Fencing & Boundary Security</a>
+      <a href="#estimator" class="mobile-nav-link">Cost Estimator</a>
+      <a href="#contact" class="mobile-nav-link">Contact & Location</a>
+      <a href="https://wa.me/919898418582" class="btn btn-whatsapp" style="width:100%; margin-top:0.5rem;">Chat on WhatsApp</a>
     </div>
   </header>
 
   <!-- ==========================================================================
        HERO SECTION
        ========================================================================== -->
-  <section id="hero" class="hero">
+  <section id="home" class="hero">
     <div class="container">
       <div class="hero-grid">
         <div class="hero-content">
-          <div class="hero-status-badge">
-            <span class="status-dot"></span>
-            Available for freelance & full-time roles
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Direct Farm Nursery & Turnkey Civil Contractor
           </div>
 
           <h1 class="hero-title">
-            Transforming Ideas Into <span class="gradient-text">Exceptional</span> Digital Products
+            Transforming Land Into <span class="gradient-text">Lush Plantations</span> & Luxury Farmhouses
           </h1>
 
-          <p class="hero-description">
-            Hi, I'm <strong>Alex Morgan</strong>. A creative Full-Stack Developer & UI/UX Specialist crafting fast, responsive, and intuitive web experiences.
+          <p class="hero-desc">
+            Led by <strong>MALLARAPU GURUNADHA NAIDU</strong>, we provide wholesale exotic fruit plants, coconut & palm trees, landscape flower nurseries, custom farmhouse development, and high-security fencing systems.
           </p>
 
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">
-              Explore Work
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          <div class="hero-ctas">
+            <a href="#fruit-plants" class="btn btn-primary">
+              Explore Plant Varieties
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
-            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            <a href="#farmhouse" class="btn btn-secondary">Farmhouse & Civil</a>
+            <a href="#fencing" class="btn btn-secondary">Fencing Systems</a>
           </div>
 
           <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-number">5+</span>
-              <span class="stat-label">Years Experience</span>
+            <div class="hero-stat-card">
+              <span class="hero-stat-num">500k+</span>
+              <span class="hero-stat-label">Plants Supplied</span>
             </div>
-            <div class="stat-item">
-              <span class="stat-number">40+</span>
-              <span class="stat-label">Completed Projects</span>
+            <div class="hero-stat-card">
+              <span class="hero-stat-num">100+</span>
+              <span class="hero-stat-label">Acres Developed</span>
             </div>
-            <div class="stat-item">
-              <span class="stat-number">99%</span>
-              <span class="stat-label">Client Satisfaction</span>
+            <div class="hero-stat-card">
+              <span class="hero-stat-num">15+</span>
+              <span class="hero-stat-label">Years of Mastery</span>
             </div>
           </div>
         </div>
 
         <div class="hero-visual">
-          <!-- Floating Badge 1 -->
-          <div class="floating-badge badge-top">
-            <div class="badge-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          <div class="hero-visual-card">
+            <div class="hero-image-slider">
+              <img id="hero-dynamic-img" src="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.22 AM.jpeg" alt="Coconut Golden Hybrid Tree" />
             </div>
-            <div>
-              <div class="badge-text-title">Clean Code</div>
-              <div class="badge-text-sub">Modular & Scalable</div>
-            </div>
-          </div>
-
-          <!-- Code Card Presentation -->
-          <div class="hero-card">
-            <div class="code-header">
-              <div class="code-dots">
-                <span class="code-dot dot-red"></span>
-                <span class="code-dot dot-yellow"></span>
-                <span class="code-dot dot-green"></span>
+            <div class="hero-floating-pill">
+              <span style="font-size: 1.25rem;">🥥</span>
+              <div>
+                <strong style="font-size: 0.88rem; color: var(--text-main); display:block;">Specialist Varieties</strong>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Miyazaki, Hybrid Coconuts, Bottle Palms</span>
               </div>
-              <span class="code-file-name">developer.ts</span>
-            </div>
-            <div class="code-body">
-              <p><span class="token-keyword">const</span> <span class="token-var">developer</span> = {</p>
-              <p style="padding-left: 1.25rem;"><span class="token-prop">name:</span> <span class="token-string">'Alex Morgan'</span>,</p>
-              <p style="padding-left: 1.25rem;"><span class="token-prop">role:</span> <span class="token-string">'Full Stack Architect'</span>,</p>
-              <p style="padding-left: 1.25rem;"><span class="token-prop">skills:</span> [<span class="token-string">'React'</span>, <span class="token-string">'Node.js'</span>, <span class="token-string">'TypeScript'</span>, <span class="token-string">'Next.js'</span>],</p>
-              <p style="padding-left: 1.25rem;"><span class="token-prop">passion:</span> <span class="token-string">'Building high-impact software'</span>,</p>
-              <p style="padding-left: 1.25rem;"><span class="token-prop">available:</span> <span class="token-bool">true</span></p>
-              <p>};</p>
-              <br/>
-              <p><span class="token-keyword">function</span> <span class="token-var">createMagic</span>() {</p>
-              <p style="padding-left: 1.25rem;"><span class="token-keyword">return</span> developer.passion + <span class="token-string">' 🚀'</span>;</p>
-              <p>}</p>
-            </div>
-          </div>
-
-          <!-- Floating Badge 2 -->
-          <div class="floating-badge badge-bottom">
-            <div class="badge-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald);">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-            </div>
-            <div>
-              <div class="badge-text-title">Fast Delivery</div>
-              <div class="badge-text-sub">100% on time</div>
             </div>
           </div>
         </div>
@@ -1664,100 +1489,635 @@
   </section>
 
   <!-- ==========================================================================
-       ABOUT SECTION
-       ========================================================================== */
-  -->
-  <section id="about" class="section">
+       CORE SERVICES & PILLARS
+       ========================================================================== -->
+  <section id="services" class="section" style="background: var(--bg-secondary);">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">About Me</span>
-        <h2 class="section-title">Driven by Quality & Modern Design</h2>
-        <p class="section-subtitle">A brief look into who I am, what I build, and how I turn complex problems into seamless software.</p>
+        <span class="section-tag">Comprehensive Solutions</span>
+        <h2 class="section-title">Everything for Your Agricultural & Farm Estate</h2>
+        <p class="section-subtitle">From seed to full-grown fruit orchards, architectural cottages to impenetrable perimeter security.</p>
       </div>
 
-      <div class="about-grid">
-        <div class="about-image-wrapper">
-          <div class="about-image-card">
-            <!-- Modern abstract generative avatar / developer illustration -->
-            <svg width="100%" height="100%" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#1e1b4b" />
-                  <stop offset="50%" stop-color="#312e81" />
-                  <stop offset="100%" stop-color="#0f172a" />
-                </linearGradient>
-                <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#6366f1" />
-                  <stop offset="100%" stop-color="#06b6d4" />
-                </linearGradient>
-              </defs>
-              <rect width="500" height="500" fill="url(#avatarGrad)" />
-              <circle cx="250" cy="200" r="85" fill="url(#accentGrad)" opacity="0.8" />
-              <path d="M120 420 C120 310, 380 310, 380 420 Z" fill="url(#accentGrad)" opacity="0.6" />
-              <circle cx="380" cy="120" r="45" fill="#a855f7" opacity="0.3" />
-              <circle cx="90" cy="320" r="30" fill="#06b6d4" opacity="0.2" />
-            </svg>
-            <div class="experience-tag-floating">
-              <div class="exp-years">5+</div>
-              <div class="exp-desc">Years in Tech</div>
+      <div class="pillars-grid">
+        <!-- Pillar 1: Plantations & Nursery -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 4 13c0-4 4-8 8-11 4 3 8 7 8 11a7 7 0 0 1-7 7z"/><path d="M12 2v20"/></svg>
+          </div>
+          <h3 class="pillar-title">Plantation Supply & Agro Consultation</h3>
+          <p class="pillar-desc">
+            Specializing in authentic grafted fruit varieties, Malaysian high-yield coconut palms, royal avenue palms, and flowering landscape plants with guaranteed root health.
+          </p>
+          <div class="pillar-features">
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> 30+ Certified Fruit & Mango Varieties</div>
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Dwarf High-Yield Coconut & Date Palms</div>
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Bulk Supply & On-Site Agronomy Guidance</div>
+          </div>
+        </div>
+
+        <!-- Pillar 2: Farmhouse Construction -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="pillar-title">Farmhouse Construction & Civil Works</h3>
+          <p class="pillar-desc">
+            Complete turnkey rural estate civil development — contemporary cottages, gazebos, natural ponds, lawn grading, pergolas, and automated drip irrigation grids.
+          </p>
+          <div class="pillar-features">
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Architectural Design & Foundation Civil Work</div>
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Landscape Pathways & Archway Shrubbery</div>
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Complete Drip & Sprinkler Water Networks</div>
+          </div>
+        </div>
+
+        <!-- Pillar 3: Fencing Systems -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+          </div>
+          <h3 class="pillar-title">Security & Agricultural Fencing Systems</h3>
+          <p class="pillar-desc">
+            Protect your precious harvest and estate boundaries from wildlife, encroachment, and cattle with solar electric shock fencing, chain link, and razor concertina wires.
+          </p>
+          <div class="pillar-features">
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Solar Powered Non-Lethal Electric Fencing</div>
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Heavy GI Chain-Link & Barbed Wire Mesh</div>
+            <div class="pillar-feature-item"><span class="check-icon">✓</span> Pre-stressed Concrete Posts & Gate Installs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 1: FRUIT PLANTS (Organized from images/fruit_plants)
+       ========================================================================== -->
+  <section id="fruit-plants" class="plant-category-section">
+    <div class="container">
+      <div class="category-header-wrap">
+        <div class="category-info">
+          <span class="category-badge">Category 01</span>
+          <h2 class="category-title">🥭 High-Yield Fruit Plants & Exotic Orchards</h2>
+          <p class="category-desc">
+            All plants are thoroughly acclimatized, grafted for rapid early fruiting, and cultivated in specialized nursery grow bags for 100% survival rate during transplanting.
+          </p>
+        </div>
+        <div>
+          <a href="https://wa.me/919898418582?text=Hello%2C%20I%20want%20to%20inquire%20about%20Fruit%20Plants%20bulk%20order." target="_blank" class="btn btn-whatsapp btn-sm">Inquire Fruit Plants</a>
+        </div>
+      </div>
+
+      <div class="plants-grid">
+        <!-- Plant 1: Miyazaki & Thai Mango -->
+        <div class="plant-card open-modal-btn" data-img="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.31 AM.jpeg" data-title="Miyazaki & Thai Mango" data-botanical="Mangifera indica (Egg of the Sun)" data-desc="World-renowned exotic Miyazaki and sweet Thai mangoes. Known for vivid red-ruby peel, ultra-high sugar content (15%+ brix), melt-in-mouth pulp with minimal fiber. Grafted and ready for high-density orchard cultivation." data-care="Full Sun | Regular Watering | Heavy Fruit Yield">
+          <div class="plant-img-wrapper">
+            <img src="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.31 AM.jpeg" alt="Miyazaki Mango" loading="lazy" />
+            <span class="plant-badge-overlay">Exotic King Variety</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Miyazaki & Thai Mango</h4>
+            <div class="plant-botanical">Mangifera indica (Japanese Ruby)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Grafted</span>
+              <span class="plant-tag">High Sugar Brix</span>
+              <span class="plant-tag">Fast Fruiting</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
             </div>
           </div>
         </div>
 
-        <div class="about-text">
-          <h3>Architecting modern web solutions with precision & care.</h3>
-          <p>
-            With over half a decade of engineering experience, I specialize in crafting full-stack web applications that combine high performance with stunning aesthetic appeal.
-          </p>
-          <p>
-            Whether building robust REST and GraphQL APIs, optimizing frontend bundle sizes, or implementing responsive and accessible design systems, I focus on delivering scalable, maintainable products that delight users and drive real business growth.
-          </p>
-
-          <div class="about-highlights">
-            <div class="highlight-card">
-              <div class="highlight-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-              </div>
-              <div class="highlight-info">
-                <h4>Clean Architecture</h4>
-                <p>Maintainable, scalable patterns</p>
-              </div>
+        <!-- Plant 2: Avocado (Butter Fruit) -->
+        <div class="plant-card open-modal-btn" data-img="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.48.04 AM.jpeg" data-title="Grafted Hass & Pinkerton Avocado" data-botanical="Persea americana" data-desc="High-density nutritious superfood tree loaded with healthy fats. Acclimatized grafted rootstocks that bear dark-skinned, rich buttery avocados within 2-3 years. Ideal for farmhouse gardens and commercial orchards." data-care="Partial-to-Full Sun | Well-drained Soil | Organic Compost">
+          <div class="plant-img-wrapper">
+            <img src="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.48.04 AM.jpeg" alt="Avocado Tree" loading="lazy" />
+            <span class="plant-badge-overlay">Superfood Trend</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Grafted Avocado (Butter Fruit)</h4>
+            <div class="plant-botanical">Persea americana (Hass Hybrid)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Heavy Bearing</span>
+              <span class="plant-tag">Nutrient Dense</span>
             </div>
-
-            <div class="highlight-card">
-              <div class="highlight-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-              </div>
-              <div class="highlight-info">
-                <h4>Performance First</h4>
-                <p>95+ Core Web Vitals speed</p>
-              </div>
-            </div>
-
-            <div class="highlight-card">
-              <div class="highlight-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-              </div>
-              <div class="highlight-info">
-                <h4>Modern UI / UX</h4>
-                <p>Fluid, accessible interfaces</p>
-              </div>
-            </div>
-
-            <div class="highlight-card">
-              <div class="highlight-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-              </div>
-              <div class="highlight-info">
-                <h4>Global Delivery</h4>
-                <p>Worked with worldwide teams</p>
-              </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
             </div>
           </div>
+        </div>
 
-          <a href="#contact" class="btn btn-primary">
-            Let's Talk
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        <!-- Plant 3: Mosambi (Sweet Lime) -->
+        <div class="plant-card open-modal-btn" data-img="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.48.10 AM.jpeg" data-title="Rangpudi Mosambi (Sweet Lime)" data-botanical="Citrus limetta" data-desc="High juice yielding Rangpudi Mosambi plants loaded with clusters of sweet citrus fruits. Drought-tolerant, disease-resistant rootstock with consistent bi-annual harvesting cycles." data-care="Full Sunlight | Moderate Irrigation | Citrus Friendly">
+          <div class="plant-img-wrapper">
+            <img src="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.48.10 AM.jpeg" alt="Mosambi Fruit Plant" loading="lazy" />
+            <span class="plant-badge-overlay">Juice Rich Citrus</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Rangpudi Mosambi</h4>
+            <div class="plant-botanical">Citrus limetta (Sweet Lime)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Juice Heavy</span>
+              <span class="plant-tag">All-Season Yield</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 4: Grafted Panas (Jackfruit) -->
+        <div class="plant-card open-modal-btn" data-img="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.26.43 AM.jpeg" data-title="Grafted Panas / Vietnam Super Early Jackfruit" data-botanical="Artocarpus heterophyllus" data-desc="Specially grafted dwarf and standard Panas (Jackfruit) varieties that bear massive honey-sweet bulbs within just 18-24 months. Highly resilient to heat and climate fluctuations." data-care="Full Sun | Deep Fertile Soil | Low Maintenance">
+          <div class="plant-img-wrapper">
+            <img src="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.26.43 AM.jpeg" alt="Grafted Jackfruit Plant" loading="lazy" />
+            <span class="plant-badge-overlay">Early Bearer</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Grafted Panas (Jackfruit)</h4>
+            <div class="plant-botanical">Artocarpus heterophyllus (Honey Panas)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Dwarf Grafted</span>
+              <span class="plant-tag">Sweet Bulbs</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 5: Balanagar Sitaphal (Custard Apple) -->
+        <div class="plant-card open-modal-btn" data-img="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.54 AM.jpeg" data-title="Balanagar Sitaphal (Custard Apple)" data-botanical="Annona squamosa" data-desc="Renowned Balanagar variety Sitaphal with large fruit size, creamy textured sweet white pulp, and very few seeds. High market value and excellent for arid soil conditions." data-care="Dry/Sunny Climate | Minimal Water Need | Pest Resistant">
+          <div class="plant-img-wrapper">
+            <img src="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.54 AM.jpeg" alt="Sitaphal Plant" loading="lazy" />
+            <span class="plant-badge-overlay">Creamy Pulp</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Balanagar Sitaphal</h4>
+            <div class="plant-botanical">Annona squamosa (Sugar Apple)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Big Fruit Size</span>
+              <span class="plant-tag">Fewer Seeds</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 6: Guava (Safed Jama & Thai Pink) -->
+        <div class="plant-card open-modal-btn" data-img="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.36 AM.jpeg" data-title="Safed Jama & Thailand Pink Guava" data-botanical="Psidium guajava" data-desc="Crisp, aromatic, and ultra-sweet Guava plants. Includes white-fleshed VNR Bihi / Safed Jama and blush-pink Thailand varieties that yield huge fruits up to 500g each." data-care="Full Sunlight | Regular Pruning | Heavy Fruiter">
+          <div class="plant-img-wrapper">
+            <img src="Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.36 AM.jpeg" alt="Guava Plant" loading="lazy" />
+            <span class="plant-badge-overlay">Crisp & Sweet</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Guava / Jamphal Varieties</h4>
+            <div class="plant-botanical">Psidium guajava (Thai Pink & White)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Crisp Texture</span>
+              <span class="plant-tag">Huge Fruit Size</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 2: PALM & COCONUT TREES (Organized from images/palm_coconut_trees)
+       ========================================================================== -->
+  <section id="palm-trees" class="plant-category-section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="category-header-wrap">
+        <div class="category-info">
+          <span class="category-badge">Category 02</span>
+          <h2 class="category-title">🌴 Palm & Coconut Trees (Commercial & Avenue)</h2>
+          <p class="category-desc">
+            Heavy-yielding dwarf coconuts, golden yellow King coconuts, royal landscape bottle palms, foxtail palms, date palms, and privacy hedges for grand farmhouse entrances.
+          </p>
+        </div>
+        <div>
+          <a href="https://wa.me/919898418582?text=Hello%2C%20I%20want%20to%20order%20Palm%20and%20Coconut%20Trees." target="_blank" class="btn btn-whatsapp btn-sm">Order Palm & Coconut Trees</a>
+        </div>
+      </div>
+
+      <div class="plants-grid">
+        <!-- Palm 1: Yellow Gold Coconut -->
+        <div class="plant-card open-modal-btn" data-img="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.22 AM.jpeg" data-title="Coconut Yellow Gold (King Coconut)" data-botanical="Cocos nucifera var. aurantiaca" data-desc="Stunning golden-orange coconuts renowned for pure sweet electrolyte water and decorative garden aesthetics. Early bearing dwarf tree that yields 200+ coconuts per year starting from year 3." data-care="Full Sun | Abundant Water | Coastal/Sandy Loam">
+          <div class="plant-img-wrapper">
+            <img src="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.22 AM.jpeg" alt="Yellow Gold Coconut" loading="lazy" />
+            <span class="plant-badge-overlay">Sweet Water King</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Coconut Yellow (Gold / King)</h4>
+            <div class="plant-botanical">Cocos nucifera (Golden Dwarf)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Dwarf Tree</span>
+              <span class="plant-tag">200+ Yield/Yr</span>
+              <span class="plant-tag">Sweetest Water</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palm 2: Malaysian Hybrid Green Coconut -->
+        <div class="plant-card open-modal-btn" data-img="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.23 AM.jpeg" data-title="Malaysian Dwarf & Hybrid Green Coconut" data-botanical="Cocos nucifera (Malaysian Green)" data-desc="Top commercial choice across Gujarat and India. Heavy clusters with 30-45 coconuts per branch. Compact trunk height allows easy harvesting without climbing gear." data-care="High Sun Exposure | Drip Irrigation Friendly | Fast Growing">
+          <div class="plant-img-wrapper">
+            <img src="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.23 AM.jpeg" alt="Malaysian Green Coconut" loading="lazy" />
+            <span class="plant-badge-overlay">Commercial Best-Seller</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Malaysian Hybrid Green Coconut</h4>
+            <div class="plant-botanical">Cocos nucifera (Malaysian Crossing)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Heavy Clusters</span>
+              <span class="plant-tag">Thick Malai</span>
+              <span class="plant-tag">Easy Harvest</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palm 3: Foxtail Palm -->
+        <div class="plant-card open-modal-btn" data-img="Images/palm_coconut_trees/Foxstail_plants.jpeg" data-title="Foxtail Palm (Avenue Landscaping)" data-botanical="Wodyetia bifurcata" data-desc="Spectacular, lush feathery fronds resembling a bushy fox tail. Creates majestic, royal driveways and grand entryway boulevards for farmhouses and resorts." data-care="Full Sun | Moderate Moisture | Low Leaf Drop">
+          <div class="plant-img-wrapper">
+            <img src="Images/palm_coconut_trees/Foxstail_plants.jpeg" alt="Foxtail Palm" loading="lazy" />
+            <span class="plant-badge-overlay">Royal Driveway Palm</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Foxtail Avenue Palm</h4>
+            <div class="plant-botanical">Wodyetia bifurcata</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Feather Fronds</span>
+              <span class="plant-tag">Luxury Appeal</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palm 4: Bottle Palm -->
+        <div class="plant-card open-modal-btn" data-img="Images/palm_coconut_trees/bottle_Palms.jpeg" data-title="Sculptural Bottle Palm" data-botanical="Hyophorbe lagenicaulis" data-desc="Unique swollen, bottle-shaped trunk with crownshaft fronds. Slow-growing architectural palm that adds immediate exotic tropical luxury to lawns and courtyard planters." data-care="Full to Medium Sun | Well Draining Soil | Drought Hardy">
+          <div class="plant-img-wrapper">
+            <img src="Images/palm_coconut_trees/bottle_Palms.jpeg" alt="Bottle Palm" loading="lazy" />
+            <span class="plant-badge-overlay">Architectural Icon</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Bottle Palm</h4>
+            <div class="plant-botanical">Hyophorbe lagenicaulis</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Swollen Trunk</span>
+              <span class="plant-tag">Resort Favorite</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palm 5: Date Palms (Khajoor) -->
+        <div class="plant-card open-modal-btn" data-img="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 10.18.06 AM.jpeg" data-title="Mature Date Palms (Phoenix dactylifera)" data-botanical="Phoenix dactylifera" data-desc="Large specimen mature Date Palms ready for immediate transplanting. Creates instant desert oasis landscape architecture for farmhouses and private villas." data-care="Heat Tolerant | Low Water Demand | Majestic Silhouette">
+          <div class="plant-img-wrapper">
+            <img src="Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 10.18.06 AM.jpeg" alt="Date Palms" loading="lazy" />
+            <span class="plant-badge-overlay">Instant Oasis Size</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Date Palms (Khajoor)</h4>
+            <div class="plant-botanical">Phoenix dactylifera (Specimen Trees)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Mature Trunk</span>
+              <span class="plant-tag">Instant Landscape</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palm 6: Red Palm (Lipstick Palm) -->
+        <div class="plant-card open-modal-btn" data-img="Images/palm_coconut_trees/red-palms.jpeg" data-title="Red Sealing Wax / Lipstick Palm" data-botanical="Cyrtostachys renda" data-desc="Striking scarlet-red crownshafts and leaf stalks that provide electrifying color contrast against lush green gardens. High demand for luxury poolscapes and shaded patios." data-care="Rich Moist Soil | Filtered Sun / Warm Climes | Premium Rare">
+          <div class="plant-img-wrapper">
+            <img src="Images/palm_coconut_trees/red-palms.jpeg" alt="Red Palms" loading="lazy" />
+            <span class="plant-badge-overlay">Scarlet Red Crown</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Red Palm (Lipstick Palm)</h4>
+            <div class="plant-botanical">Cyrtostachys renda</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Vibrant Red</span>
+              <span class="plant-tag">Exotic Centerpiece</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 3: FLOWER & DECORATIVE PLANTS (Organized from images/flower_decorative_plants)
+       ========================================================================== -->
+  <section id="flower-plants" class="plant-category-section">
+    <div class="container">
+      <div class="category-header-wrap">
+        <div class="category-info">
+          <span class="category-badge">Category 03</span>
+          <h2 class="category-title">🌺 Flower & Decorative Landscape Plants</h2>
+          <p class="category-desc">
+            Vibrant flowering shrubs, ornamental topiary ficus, flowering avenue trees (Bauhinia, Tabebuia), climbers, hedge borders, and exotic colored foliage.
+          </p>
+        </div>
+        <div>
+          <a href="https://wa.me/919898418582?text=Hello%2C%20I%20want%20to%20order%20Flower%20and%20Decorative%20Plants." target="_blank" class="btn btn-whatsapp btn-sm">Inquire Decorative Plants</a>
+        </div>
+      </div>
+
+      <div class="plants-grid">
+        <!-- Plant 1: Bauhinia & Tabebuia Rosea -->
+        <div class="plant-card open-modal-btn" data-img="Images/flower_decorative_plants/bahunia.jpeg" data-title="Bauhinia (Kachnar) & Tabebuia Rosea" data-botanical="Bauhinia variegata / Tabebuia rosea" data-desc="Magnificent pink-purple flowering avenue trees that create breathtaking seasonal blooms. Ideal for perimeter plantation, shaded sitting areas, and lawn borders." data-care="Full Sun | Fast Growing | Burst of Seasonal Flowers">
+          <div class="plant-img-wrapper">
+            <img src="Images/flower_decorative_plants/bahunia.jpeg" alt="Bauhinia Flower Plant" loading="lazy" />
+            <span class="plant-badge-overlay">Flowering Canopy</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Bauhinia & Tabebuia Rosea</h4>
+            <div class="plant-botanical">Bauhinia purpurea & Tabebuia</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Avenue Tree</span>
+              <span class="plant-tag">Pink Orchid Bloom</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 2: Ficus Topiary & Bonsai Bush -->
+        <div class="plant-card open-modal-btn" data-img="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.25.13 AM.jpeg" data-title="Ficus Golden & Round Sculpted Topiary" data-botanical="Ficus microcarpa / Panda" data-desc="Meticulously pruned ball topiaries, lollipop stems, and dense golden globe hedges. Retains glossy lush foliage year-round for formal landscape pathways." data-care="Sun/Partial Sun | Pruning Tolerant | Evergreen Dense">
+          <div class="plant-img-wrapper">
+            <img src="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.25.13 AM.jpeg" alt="Ficus Topiary" loading="lazy" />
+            <span class="plant-badge-overlay">Formal Landscaping</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Ficus Round Topiary & Hedge</h4>
+            <div class="plant-botanical">Ficus panda / Golden globe</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Sculpted Shape</span>
+              <span class="plant-tag">Evergreen</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 3: Multi-color Bougainvillea -->
+        <div class="plant-card open-modal-btn" data-img="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.03 AM.jpeg" data-title="Multi-Color Bougainvillea (Hardy Climbers)" data-botanical="Bougainvillea spectabilis" data-desc="Vibrant cascading clusters of magenta, crimson, white, and golden orange bracts. Hardy climber for compound walls, gazebos, pergolas, and archways." data-care="Thrives in Sun | Drought Hardy | Non-Stop Flowers">
+          <div class="plant-img-wrapper">
+            <img src="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.03 AM.jpeg" alt="Bougainvillea" loading="lazy" />
+            <span class="plant-badge-overlay">Vibrant Blooms</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Multi-Color Bougainvillea</h4>
+            <div class="plant-botanical">Bougainvillea spectabilis</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Wall Climber</span>
+              <span class="plant-tag">Pergola Covering</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 4: Red & White Ixora (Rukmini) -->
+        <div class="plant-card open-modal-btn" data-img="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.36 AM.jpeg" data-title="Red & White Dwarf Ixora (Rukmini)" data-botanical="Ixora coccinea" data-desc="Dense clusters of star-shaped flowers that stay in bloom throughout the entire year. Perfect for low flowering hedges, edging walkways, and flower beds." data-care="Full Sun | Moist Acidic Soil | Compact Bush">
+          <div class="plant-img-wrapper">
+            <img src="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.36 AM.jpeg" alt="Red Ixora" loading="lazy" />
+            <span class="plant-badge-overlay">Year-Round Flower</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Red & White Ixora (Rukmini)</h4>
+            <div class="plant-botanical">Ixora coccinea</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Continuous Bloom</span>
+              <span class="plant-tag">Border Hedge</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 5: Spider Lily & Golden Spider Lily -->
+        <div class="plant-card open-modal-btn" data-img="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.09 AM.jpeg" data-title="Spider Lily & Golden Variegated Ribbon" data-botanical="Hymenocallis littoralis / Pandanus" data-desc="Elegant fragrant star-burst white spider lilies and bright golden ribbon foliage. Used extensively for garden edging, boundary dividers, and poolside greenery." data-care="Moist Soil | Sun / Light Shade | Low Maintenance">
+          <div class="plant-img-wrapper">
+            <img src="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.09 AM.jpeg" alt="Spider Lily" loading="lazy" />
+            <span class="plant-badge-overlay">Fragrant Star Bloom</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Spider Lily & Golden Grass</h4>
+            <div class="plant-botanical">Hymenocallis littoralis</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Fragrant Flowers</span>
+              <span class="plant-tag">Lawn Edging</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant 6: Madhumalti Archway Climber -->
+        <div class="plant-card open-modal-btn" data-img="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.55 AM.jpeg" data-title="Madhumalti (Rangoon Creeper) Archways" data-botanical="Combretum indicum" data-desc="Fragrant color-changing flowers that shift from white to pink and deep crimson red. Grown over custom metal and wooden archways to create romantic garden entrances." data-care="Climbing Support | Full Sun | Sweet Fragrance">
+          <div class="plant-img-wrapper">
+            <img src="Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.55 AM.jpeg" alt="Madhumalti Archway" loading="lazy" />
+            <span class="plant-badge-overlay">Entrance Archways</span>
+          </div>
+          <div class="plant-body">
+            <h4 class="plant-name">Madhumalti Archways</h4>
+            <div class="plant-botanical">Combretum indicum (Rangoon Creeper)</div>
+            <div class="plant-meta-tags">
+              <span class="plant-tag">Entrance Tunnel</span>
+              <span class="plant-tag">Sweet Night Scent</span>
+            </div>
+            <div class="plant-card-footer">
+              <span class="plant-action-text">View Details & Photos &rarr;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FARMHOUSE CONSTRUCTION & CIVIL WORKS
+       ========================================================================== -->
+  <section id="farmhouse" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Civil & Architecture</span>
+        <h2 class="section-title">Turnkey Luxury Farmhouse Construction</h2>
+        <p class="section-subtitle">We turn barren rural land into fully-equipped, modern agricultural estates with residential cottages and integrated landscape engineering.</p>
+      </div>
+
+      <div class="farmhouse-process-grid">
+        <div class="process-step-card">
+          <div class="process-number">01</div>
+          <h4 class="process-title">Land Survey & Master Plan</h4>
+          <p class="process-desc">Soil testing, boundary alignment, zoning for orchards, cottages, swimming ponds, and road networks.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="process-number">02</div>
+          <h4 class="process-title">Civil & Structural Works</h4>
+          <p class="process-desc">Construction of luxury RCC / wooden cottages, servant quarters, tractor sheds, gazebos, and water storage sumps.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="process-number">03</div>
+          <h4 class="process-title">Drip Irrigation & Soil Enrichment</h4>
+          <p class="process-desc">Installation of automatic filtration units, venturi fertilizer injectors, sub-surface drip pipelines, and organic manuring.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="process-number">04</div>
+          <h4 class="process-title">Plantation & Landscape Delivery</h4>
+          <p class="process-desc">Planting fruit orchards, coconut groves, royal palm driveways, lush green lawns, and full estate handover.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="#contact" class="btn btn-primary">Book Farmhouse Site Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FENCING SYSTEMS & BOUNDARY PROTECTION
+       ========================================================================== -->
+  <section id="fencing" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Perimeter Security</span>
+        <h2 class="section-title">Robust Agricultural & Farmhouse Fencing</h2>
+        <p class="section-subtitle">Engineered to protect your valuable crops, exotic plants, and farmhouse estate against wildlife intrusion and trespassing.</p>
+      </div>
+
+      <div class="fencing-grid">
+        <!-- Fencing 1: Solar Electric Fence -->
+        <div class="fencing-card">
+          <span class="fencing-tag">Smart Protection</span>
+          <h3 class="fencing-title">Solar High-Voltage Electric Fencing</h3>
+          <p class="fencing-desc">
+            Government-compliant non-lethal pulsating electric shock fence powered by solar panels and battery backup. Effectively repels wild boars, nilgai (blue bulls), and stray cattle.
+          </p>
+          <div class="fencing-specs">
+            <div class="spec-item">⚡ 10,000V Safe Pulsating Energizer</div>
+            <div class="spec-item">🔋 24/7 Solar + Battery Autonomy</div>
+            <div class="spec-item">🚨 Audio-Visual Intrusion Alarm Integration</div>
+          </div>
+        </div>
+
+        <!-- Fencing 2: Chain Link & Barbed Wire -->
+        <div class="fencing-card">
+          <span class="fencing-tag">Heavy Duty Physical Barrier</span>
+          <h3 class="fencing-title">Galvanized Chain-Link & Barbed Wire</h3>
+          <p class="fencing-desc">
+            Hot-dipped heavy galvanized steel diamond mesh (GI / PVC Coated) supported by pre-stressed concrete or steel angle posts with multi-strand anti-climb barbed wire topping.
+          </p>
+          <div class="fencing-specs">
+            <div class="spec-item">🛡️ Rust-Proof Heavy Galvanized Wire</div>
+            <div class="spec-item">🏗️ Reinforced Concrete Foundation Posts</div>
+            <div class="spec-item">📐 Customizable Heights (4ft to 10ft)</div>
+          </div>
+        </div>
+
+        <!-- Fencing 3: Concertina Razor Wire & Precast Wall -->
+        <div class="fencing-card">
+          <span class="fencing-tag">Maximum High Security</span>
+          <h3 class="fencing-title">Concertina Razor Wire & Precast Wall</h3>
+          <p class="fencing-desc">
+            Ultra-sharp stainless steel punch blade concertina coils installed over precast compound walls or boundary angles. Ideal for high-value farmhouses, warehouses, and estates.
+          </p>
+          <div class="fencing-specs">
+            <div class="spec-item">⚔️ Heavy Blade Stainless Steel Coils</div>
+            <div class="spec-item">🧱 Fast-Install Precast Boundary Panels</div>
+            <div class="spec-item">🔒 Heavy Gate & Entryway Integration</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE QUOTE ESTIMATOR / CALCULATOR
+       ========================================================================== -->
+  <section id="estimator" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Quick Estimate</span>
+        <h2 class="section-title">Plantation & Fencing Cost Estimator</h2>
+        <p class="section-subtitle">Get an instant preliminary estimate for your project in Vadodara and across Gujarat.</p>
+      </div>
+
+      <div class="calculator-wrapper">
+        <div class="calc-form-grid">
+          <div class="calc-group">
+            <label class="calc-label" for="calc-service">Select Primary Service</label>
+            <select id="calc-service" class="calc-select">
+              <option value="fruit">Fruit Plantation & Orchard Setup</option>
+              <option value="coconut">Dwarf Coconut & Palm Grove</option>
+              <option value="farmhouse">Full Farmhouse & Landscape Package</option>
+              <option value="solar-fence">Solar Electric Shock Fencing</option>
+              <option value="chain-fence">Chain-Link Boundary Fencing</option>
+            </select>
+          </div>
+
+          <div class="calc-group">
+            <label class="calc-label" for="calc-land-unit">Land Unit Type</label>
+            <select id="calc-land-unit" class="calc-select">
+              <option value="acre">Acres</option>
+              <option value="bigha">Bigha (Gujarat standard)</option>
+              <option value="running-ft">Running Feet (for Fencing)</option>
+            </select>
+          </div>
+
+          <div class="calc-group">
+            <label class="calc-label" for="calc-qty">Quantity / Size (Number of Acres, Bigha, or Feet)</label>
+            <input type="number" id="calc-qty" class="calc-input" min="1" value="2" placeholder="Enter number..." />
+          </div>
+
+          <div class="calc-group">
+            <label class="calc-label" for="calc-irrigation">Include Drip Irrigation / Water System?</label>
+            <select id="calc-irrigation" class="calc-select">
+              <option value="yes">Yes (Recommended)</option>
+              <option value="no">No (Plants / Fencing Only)</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" id="calc-submit-btn" class="btn btn-primary" style="width: 100%;">
+          Calculate Estimated Cost & Materials
+        </button>
+
+        <div id="calc-result" class="calc-result-box" style="display: none;">
+          <h3 id="calc-est-title" style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1.4rem;">Estimated Package: ₹ 1,50,000*</h3>
+          <p id="calc-est-desc" style="color: var(--text-dim); margin-bottom: 1.25rem; font-size: 0.95rem;">Includes plants, organic soil treatment, planting labor, and site supervision.</p>
+          <a id="calc-whatsapp-btn" href="#" target="_blank" class="btn btn-whatsapp btn-sm">
+            📲 Request Official Formal Quotation on WhatsApp
           </a>
         </div>
       </div>
@@ -1765,477 +2125,88 @@
   </section>
 
   <!-- ==========================================================================
-       SKILLS SECTION
+       CONTACT & LOCATION SECTION
        ========================================================================== -->
-  <section id="skills" class="section" style="background: var(--bg-secondary);">
+  <section id="contact" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">Tech Stack</span>
-        <h2 class="section-title">Skills & Technologies</h2>
-        <p class="section-subtitle">The tools and frameworks I use to bring ideas to life.</p>
-      </div>
-
-      <!-- Category Filter Tabs -->
-      <div class="skills-tabs" role="tablist">
-        <button class="tab-btn active" data-category="all" role="tab" aria-selected="true">All Skills</button>
-        <button class="tab-btn" data-category="frontend" role="tab" aria-selected="false">Frontend</button>
-        <button class="tab-btn" data-category="backend" role="tab" aria-selected="false">Backend & DB</button>
-        <button class="tab-btn" data-category="devops" role="tab" aria-selected="false">DevOps & Cloud</button>
-      </div>
-
-      <!-- Skills Cards Grid -->
-      <div class="skills-grid" id="skills-container">
-        <!-- JavaScript / TypeScript -->
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16.5 9.4 7.55 4.24a1.78 1.78 0 0 0-2.5 1.55v12.42a1.78 1.78 0 0 0 2.5 1.55L16.5 14.6a1.78 1.78 0 0 0 0-3.2z"/></svg>
-          </div>
-          <h4 class="skill-name">TypeScript</h4>
-          <span class="skill-level">Advanced (95%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 95%;"></div>
-          </div>
-        </div>
-
-        <!-- React / Next.js -->
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="12" rx="10" ry="4"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse><circle cx="12" cy="12" r="1.5"></circle></svg>
-          </div>
-          <h4 class="skill-name">React & Next.js</h4>
-          <span class="skill-level">Expert (92%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 92%;"></div>
-          </div>
-        </div>
-
-        <!-- HTML5 & CSS3 / Tailwind -->
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-          </div>
-          <h4 class="skill-name">CSS3 & SASS</h4>
-          <span class="skill-level">Expert (98%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 98%;"></div>
-          </div>
-        </div>
-
-        <!-- Node.js & Express -->
-        <div class="skill-card" data-category="backend">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-          </div>
-          <h4 class="skill-name">Node.js</h4>
-          <span class="skill-level">Advanced (90%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 90%;"></div>
-          </div>
-        </div>
-
-        <!-- Python & FastAPI -->
-        <div class="skill-card" data-category="backend">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
-          </div>
-          <h4 class="skill-name">Python / FastAPI</h4>
-          <span class="skill-level">Proficient (85%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 85%;"></div>
-          </div>
-        </div>
-
-        <!-- PostgreSQL & Prisma -->
-        <div class="skill-card" data-category="backend">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
-          </div>
-          <h4 class="skill-name">PostgreSQL</h4>
-          <span class="skill-level">Advanced (88%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 88%;"></div>
-          </div>
-        </div>
-
-        <!-- Docker & Kubernetes -->
-        <div class="skill-card" data-category="devops">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
-          </div>
-          <h4 class="skill-name">Docker</h4>
-          <span class="skill-level">Intermediate (82%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 82%;"></div>
-          </div>
-        </div>
-
-        <!-- Git & CI/CD -->
-        <div class="skill-card" data-category="devops">
-          <div class="skill-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
-          </div>
-          <h4 class="skill-name">Git & CI/CD</h4>
-          <span class="skill-level">Advanced (94%)</span>
-          <div class="skill-progress-bar">
-            <div class="skill-progress-fill" style="width: 94%;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       PROJECTS SECTION
-       ========================================================================== -->
-  <section id="projects" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Portfolio</span>
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-subtitle">Selected works demonstrating full-stack engineering and product design.</p>
-      </div>
-
-      <!-- Filters -->
-      <div class="project-filters">
-        <button class="filter-btn active" data-filter="all">All Projects</button>
-        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
-        <button class="filter-btn" data-filter="frontend">Frontend & UI</button>
-        <button class="filter-btn" data-filter="ai">AI / Cloud</button>
-      </div>
-
-      <div class="projects-grid" id="projects-container">
-        <!-- Project 1 -->
-        <div class="project-card" data-category="fullstack">
-          <div class="project-preview">
-            <svg width="100%" height="100%" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#1e1b4b" />
-                  <stop offset="100%" stop-color="#3b0764" />
-                </linearGradient>
-              </defs>
-              <rect width="400" height="250" fill="url(#p1Grad)" />
-              <rect x="40" y="35" width="320" height="180" rx="10" fill="#0f172a" stroke="rgba(255,255,255,0.1)" />
-              <circle cx="70" cy="55" r="4" fill="#ef4444" />
-              <circle cx="85" cy="55" r="4" fill="#eab308" />
-              <circle cx="100" cy="55" r="4" fill="#22c55e" />
-              <rect x="60" y="80" width="120" height="14" rx="4" fill="#6366f1" opacity="0.8" />
-              <rect x="60" y="105" width="280" height="8" rx="3" fill="rgba(255,255,255,0.2)" />
-              <rect x="60" y="125" width="200" height="8" rx="3" fill="rgba(255,255,255,0.2)" />
-              <rect x="60" y="155" width="80" height="35" rx="6" fill="#a855f7" />
-              <rect x="155" y="155" width="80" height="35" rx="6" fill="rgba(255,255,255,0.1)" />
-            </svg>
-            <div class="project-overlay">
-              <button class="btn btn-primary btn-sm view-details-btn" data-id="1">View Case Study</button>
-            </div>
-          </div>
-          <div class="project-content">
-            <div class="project-tags">
-              <span class="project-tag">Next.js 14</span>
-              <span class="project-tag">TypeScript</span>
-              <span class="project-tag">Prisma</span>
-              <span class="project-tag">PostgreSQL</span>
-            </div>
-            <h3 class="project-title">CloudPulse - SaaS Analytics</h3>
-            <p class="project-desc">
-              Real-time server monitoring and analytics dashboard with interactive charts, alerting pipelines, and multi-tenant team management.
-            </p>
-            <div class="project-footer">
-              <span class="timeline-date">Full Stack</span>
-              <a href="javascript:void(0)" class="project-link-action view-details-btn" data-id="1">
-                Details
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="project-card" data-category="ai">
-          <div class="project-preview">
-            <svg width="100%" height="100%" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#022c22" />
-                  <stop offset="100%" stop-color="#064e3b" />
-                </linearGradient>
-              </defs>
-              <rect width="400" height="250" fill="url(#p2Grad)" />
-              <circle cx="200" cy="125" r="60" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4" />
-              <circle cx="200" cy="125" r="40" fill="rgba(16, 185, 129, 0.2)" />
-              <path d="M185 125 L195 135 L215 115" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" />
-            </svg>
-            <div class="project-overlay">
-              <button class="btn btn-primary btn-sm view-details-btn" data-id="2">View Case Study</button>
-            </div>
-          </div>
-          <div class="project-content">
-            <div class="project-tags">
-              <span class="project-tag">Python</span>
-              <span class="project-tag">FastAPI</span>
-              <span class="project-tag">OpenAI</span>
-              <span class="project-tag">Vector DB</span>
-            </div>
-            <h3 class="project-title">Synthetix - AI Knowledge Bot</h3>
-            <p class="project-desc">
-              Context-aware LLM retrieval system that connects to private enterprise documents and answers queries with instant source citations.
-            </p>
-            <div class="project-footer">
-              <span class="timeline-date">AI / Cloud</span>
-              <a href="javascript:void(0)" class="project-link-action view-details-btn" data-id="2">
-                Details
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project-card" data-category="frontend">
-          <div class="project-preview">
-            <svg width="100%" height="100%" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="p3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#18181b" />
-                  <stop offset="100%" stop-color="#27272a" />
-                </linearGradient>
-              </defs>
-              <rect width="400" height="250" fill="url(#p3Grad)" />
-              <rect x="50" y="40" width="300" height="170" rx="8" fill="#09090b" stroke="#3f3f46" />
-              <circle cx="120" cy="110" r="35" fill="none" stroke="#06b6d4" stroke-width="8" stroke-dasharray="160 50" />
-              <rect x="180" y="90" width="130" height="12" rx="3" fill="#06b6d4" />
-              <rect x="180" y="115" width="90" height="8" rx="3" fill="#71717a" />
-            </svg>
-            <div class="project-overlay">
-              <button class="btn btn-primary btn-sm view-details-btn" data-id="3">View Case Study</button>
-            </div>
-          </div>
-          <div class="project-content">
-            <div class="project-tags">
-              <span class="project-tag">Vue 3</span>
-              <span class="project-tag">TailwindCSS</span>
-              <span class="project-tag">WebSockets</span>
-            </div>
-            <h3 class="project-title">TradeFlow - Crypto Terminal</h3>
-            <p class="project-desc">
-              High-frequency trading interface featuring sub-50ms candlestick chart updates, order book visualization, and wallet sync.
-            </p>
-            <div class="project-footer">
-              <span class="timeline-date">Frontend</span>
-              <a href="javascript:void(0)" class="project-link-action view-details-btn" data-id="3">
-                Details
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       EXPERIENCE TIMELINE
-       ========================================================================== -->
-  <section id="experience" class="section" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Career</span>
-        <h2 class="section-title">Work Experience</h2>
-        <p class="section-subtitle">My professional journey in software engineering.</p>
-      </div>
-
-      <div class="timeline">
-        <!-- Item 1 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-meta">
-              <h3 class="timeline-role">Senior Full-Stack Engineer</h3>
-              <span class="timeline-date">2023 - Present</span>
-            </div>
-            <div class="timeline-company">HyperScale Tech Labs • San Francisco, CA</div>
-            <p class="timeline-desc">
-              Led the frontend architecture migration to Next.js App Router, boosting page load speeds by 42%. Mentored junior engineers and designed scalable microservices in Node.js & Go.
-            </p>
-          </div>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-meta">
-              <h3 class="timeline-role">Frontend Specialist</h3>
-              <span class="timeline-date">2021 - 2023</span>
-            </div>
-            <div class="timeline-company">Nexus Interactive • New York, NY</div>
-            <p class="timeline-desc">
-              Engineered cross-platform web applications and custom component libraries with 100% unit test coverage. Collaborated closely with product managers and UX designers.
-            </p>
-          </div>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-meta">
-              <h3 class="timeline-role">Junior Web Developer</h3>
-              <span class="timeline-date">2019 - 2021</span>
-            </div>
-            <div class="timeline-company">Apex Digital Agency • Austin, TX</div>
-            <p class="timeline-desc">
-              Developed and delivered over 25 responsive commercial websites for clients across e-commerce, healthcare, and finance sectors.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       TESTIMONIALS SECTION
-       ========================================================================== -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Feedback</span>
-        <h2 class="section-title">What People Say</h2>
-        <p class="section-subtitle">Endorsements from collaborators, clients, and team leads.</p>
-      </div>
-
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div>
-            <div class="testimonial-stars">★★★★★</div>
-            <p class="testimonial-quote">
-              "Alex transformed our vision into an incredible, blazing-fast product ahead of schedule. The code quality and attention to detail were top tier."
-            </p>
-          </div>
-          <div class="testimonial-author">
-            <div class="author-avatar">SM</div>
-            <div>
-              <div class="author-name">Sarah Mitchell</div>
-              <div class="author-role">VP of Product, CloudPulse</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div>
-            <div class="testimonial-stars">★★★★★</div>
-            <p class="testimonial-quote">
-              "One of the most versatile developers I've worked with. Outstanding UI sensibilities combined with rock-solid backend engineering."
-            </p>
-          </div>
-          <div class="testimonial-author">
-            <div class="author-avatar" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);">DR</div>
-            <div>
-              <div class="author-name">David Reynolds</div>
-              <div class="author-role">CTO, Nexus Interactive</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div>
-            <div class="testimonial-stars">★★★★★</div>
-            <p class="testimonial-quote">
-              "Superb communication and unmatched problem-solving agility. Highly recommend Alex for any ambitious web application build."
-            </p>
-          </div>
-          <div class="testimonial-author">
-            <div class="author-avatar" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">EL</div>
-            <div>
-              <div class="author-name">Elena Lin</div>
-              <div class="author-role">Founder, Synthetix AI</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       CONTACT SECTION
-       ========================================================================== -->
-  <section id="contact" class="section" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Get In Touch</span>
-        <h2 class="section-title">Let's Build Something Great</h2>
-        <p class="section-subtitle">Have a project in mind or want to explore collaboration opportunities? Send a message!</p>
+        <span class="section-tag">Direct Communication</span>
+        <h2 class="section-title">Get in Touch with Mr. Gurunadha Naidu</h2>
+        <p class="section-subtitle">Reach out for wholesale plant orders, farmhouse visits, fencing tenders, and on-site landscape estimation.</p>
       </div>
 
       <div class="contact-grid">
-        <div class="contact-info">
-          <h3>Ready to start your next project?</h3>
-          <p>
-            I am currently open to high-impact freelance projects, consulting, and full-time senior engineering opportunities.
-          </p>
+        <div class="contact-card">
+          <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Head Office & Farm Nursery</h3>
 
-          <div class="contact-info-list">
-            <!-- Email -->
-            <div class="contact-item" id="copy-email-btn" title="Click to copy email">
-              <div class="contact-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-              </div>
-              <div class="contact-details">
-                <h4>Email Me (Click to copy)</h4>
-                <p>alex.morgan.dev@example.com</p>
-              </div>
+          <div class="contact-info-block">
+            <div class="contact-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             </div>
-
-            <!-- Location -->
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              </div>
-              <div class="contact-details">
-                <h4>Location</h4>
-                <p>San Francisco, CA (Open to Remote)</p>
-              </div>
-            </div>
-
-            <!-- Availability -->
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
-              </div>
-              <div class="contact-details">
-                <h4>Response Time</h4>
-                <p>Within 24 business hours</p>
-              </div>
+            <div class="contact-block-text">
+              <h4>Farm Address</h4>
+              <p>53, Heaven Farm II, Near Khundela Char Rasta, Dabhoi Road, Vadodara, Gujarat - 391760</p>
             </div>
           </div>
+
+          <div class="contact-info-block">
+            <div class="contact-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="contact-block-text">
+              <h4>Direct Mobile / Call</h4>
+              <p><a href="tel:9898418582" style="color: var(--primary);">+91 9898418582</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <div class="contact-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            </div>
+            <div class="contact-block-text">
+              <h4>Farm Timings</h4>
+              <p>Monday - Sunday: 7:00 AM - 7:30 PM (All 7 Days Open)</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/919898418582?text=Hello%20Naiduji,%20I%20want%20to%20visit%20your%20nursery%20at%20Dabhoi%20Road,%20Vadodara." target="_blank" class="btn btn-whatsapp" style="width:100%;">
+            Chat Directly on WhatsApp
+          </a>
         </div>
 
-        <!-- Interactive Contact Form -->
-        <div class="contact-form-card">
-          <form id="contact-form">
+        <!-- Interactive Inquiry Form -->
+        <div class="contact-card">
+          <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Send an Online Inquiry</h3>
+          <form id="estate-contact-form">
             <div class="form-group">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" id="name" class="form-input" placeholder="e.g. Jane Doe" required />
+              <label class="form-label" for="client-name">Your Full Name</label>
+              <input type="text" id="client-name" class="form-control" placeholder="e.g. Rajesh Patel" required />
             </div>
 
             <div class="form-group">
-              <label for="email" class="form-label">Email Address</label>
-              <input type="email" id="email" class="form-input" placeholder="e.g. jane@example.com" required />
+              <label class="form-label" for="client-phone">Phone / WhatsApp Number</label>
+              <input type="tel" id="client-phone" class="form-control" placeholder="e.g. 9898XXXXXX" required />
             </div>
 
             <div class="form-group">
-              <label for="subject" class="form-label">Subject</label>
-              <input type="text" id="subject" class="form-input" placeholder="Project Inquiry / Job Opportunity" required />
+              <label class="form-label" for="client-interest">Requirement</label>
+              <select id="client-interest" class="form-control">
+                <option>Bulk Fruit Plants / Mango Varieties</option>
+                <option>Dwarf Coconut & Avenue Palms</option>
+                <option>Flower & Decorative Landscape Plants</option>
+                <option>Turnkey Farmhouse Construction</option>
+                <option>Solar Electric / Chain Link Fencing</option>
+                <option>Complete Agricultural Estate Project</option>
+              </select>
             </div>
 
             <div class="form-group">
-              <label for="message" class="form-label">Message</label>
-              <textarea id="message" class="form-textarea" placeholder="Tell me about your project, timeline, and goals..." required></textarea>
+              <label class="form-label" for="client-msg">Project Location & Land Details</label>
+              <textarea id="client-msg" class="form-control" placeholder="Tell us your land area (Acres/Bigha), location, and specific plant or construction requirements..."></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary" style="width: 100%;">
-              <span>Send Message</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              Submit & Connect with Mr. Naidu
             </button>
           </form>
         </div>
@@ -2248,59 +2219,99 @@
        ========================================================================== -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
-        <div class="nav-brand">
-          <div class="nav-brand-logo">A</div>
-          <span>Alex Morgan</span>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="nav-brand" style="margin-bottom: 1rem;">
+            <div class="nav-logo-icon">🌿</div>
+            <div>
+              <div class="nav-brand-title">MALLARAPU GURUNADHA NAIDU</div>
+              <div class="nav-brand-sub">Plantation & Civil Works</div>
+            </div>
+          </div>
+          <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-dim);">
+            Specialist consultant & supplier for high-density fruit orchards, dwarf hybrid coconuts, avenue date palms, luxury farmhouse architecture, and solar boundary security.
+          </p>
         </div>
 
-        <div class="footer-socials">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub Profile">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LinkedIn Profile">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Twitter / X Profile">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+        <div class="footer-col">
+          <h4>Plant Collections</h4>
+          <div class="footer-links">
+            <a href="#fruit-plants">Miyazaki & Thai Mango</a>
+            <a href="#fruit-plants">Avocado & Jackfruit</a>
+            <a href="#palm-trees">Yellow King Coconut</a>
+            <a href="#palm-trees">Malaysian Dwarf Coconut</a>
+            <a href="#palm-trees">Foxtail & Bottle Palms</a>
+            <a href="#flower-plants">Bougainvillea & Topiary</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Civil & Security</h4>
+          <div class="footer-links">
+            <a href="#farmhouse">Turnkey Farmhouses</a>
+            <a href="#farmhouse">Drip Irrigation Grids</a>
+            <a href="#fencing">Solar Electric Fencing</a>
+            <a href="#fencing">GI Chain-Link Fences</a>
+            <a href="#fencing">Razor Wire & Precast</a>
+            <a href="#estimator">Cost Calculator</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Contact</h4>
+          <p style="font-size: 0.88rem; color: var(--text-dim); margin-bottom: 0.5rem;">
+            📍 53, Heaven Farm II, Dabhoi Road, Vadodara, Gujarat 391760
+          </p>
+          <p style="font-size: 0.95rem; font-weight: 700; color: var(--primary); margin-bottom: 1rem;">
+            📞 <a href="tel:9898418582">+91 9898418582</a>
+          </p>
+          <a href="Images/List_Plants.pdf" class="btn btn-secondary btn-sm" style="width: 100%;" download>
+            Download Plant List (PDF)
           </a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>© <span id="current-year"></span> Alex Morgan. All rights reserved. Designed & built with clean code.</p>
+        <p>© <span id="current-year"></span> MALLARAPU GURUNADHA NAIDU. All Rights Reserved | Plantation Consultant & Supplier Vadodara.</p>
       </div>
     </div>
   </footer>
 
   <!-- ==========================================================================
-       CASE STUDY / PROJECT MODAL
+       PLANT DETAILS MODAL LIGHTBOX
        ========================================================================== -->
-  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog">
+  <div id="plant-modal" class="modal-backdrop" aria-hidden="true" role="dialog">
     <div class="modal-content">
-      <button id="modal-close" class="modal-close-btn" aria-label="Close Project Modal">&times;</button>
-      <h2 id="modal-title" style="margin-bottom: 0.5rem; font-size: 1.5rem;">Project Title</h2>
-      <div id="modal-tags" class="project-tags" style="margin-bottom: 1rem;"></div>
-      <p id="modal-description" style="color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;"></p>
+      <button id="modal-close" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <img id="modal-img" class="modal-img-preview" src="" alt="Plant preview" />
+      <h2 id="modal-title" style="font-size: 1.6rem; margin-bottom: 0.25rem;">Plant Name</h2>
+      <div id="modal-botanical" style="color: var(--accent-gold); font-style: italic; margin-bottom: 1rem;">Botanical Name</div>
+      <p id="modal-desc" style="color: var(--text-dim); line-height: 1.7; margin-bottom: 1.25rem;"></p>
       
       <div style="background: var(--surface); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
-        <h4 style="margin-bottom: 0.5rem;">Key Architecture Highlights:</h4>
-        <ul id="modal-highlights" style="padding-left: 1.25rem; list-style-type: disc; color: var(--text-muted); font-size: 0.9rem;"></ul>
+        <strong style="font-size: 0.85rem; color: var(--primary); text-transform: uppercase;">Agronomy & Care Highlights:</strong>
+        <p id="modal-care" style="color: var(--text-main); font-size: 0.9rem; margin-top: 0.25rem;"></p>
       </div>
 
-      <div style="display: flex; gap: 0.75rem;">
-        <a href="#contact" class="btn btn-primary btn-sm" onclick="closeModal()">Discuss Project</a>
-        <button class="btn btn-secondary btn-sm" onclick="closeModal()">Close</button>
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        <a id="modal-whatsapp-cta" href="#" target="_blank" class="btn btn-whatsapp btn-sm">Inquire on WhatsApp</a>
+        <a href="tel:9898418582" class="btn btn-primary btn-sm">Call Mr. Naidu</a>
+        <button class="btn btn-secondary btn-sm" onclick="closePlantModal()">Close</button>
       </div>
     </div>
   </div>
 
   <!-- ==========================================================================
-       TOAST NOTIFICATION
+       FLOATING WHATSAPP BUTTON
        ========================================================================== -->
+  <a href="https://wa.me/919898418582?text=Hello%20Mr.%20Gurunadha%20Naidu,%20I%20am%20visiting%20your%20website%20and%20need%20details%20about%20plants/farmhouse/fencing." target="_blank" class="floating-whatsapp" aria-label="Direct WhatsApp Contact" title="Chat on WhatsApp">
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  </a>
+
+  <!-- Toast Notification -->
   <div id="toast" class="toast" role="alert" aria-live="polite">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-    <span id="toast-message">Action completed successfully!</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+    <span id="toast-message">Action successful!</span>
   </div>
 
   <!-- ==========================================================================
@@ -2310,7 +2321,7 @@
     // 1. Current Year
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
-    // 2. Scroll Progress Bar
+    // 2. Scroll Progress Bar & Nav Highlights
     window.addEventListener('scroll', () => {
       const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
       const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -2318,15 +2329,15 @@
       document.getElementById('scroll-progress').style.width = scrolled + '%';
     });
 
-    // 3. Theme Toggle (Dark/Light) with localStorage
+    // 3. Theme Toggle (Dark / Light) with Storage
     const themeToggleBtn = document.getElementById('theme-toggle');
     const themeIcon = document.getElementById('theme-icon');
-    const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
+    const savedTheme = localStorage.getItem('naidu-theme') || 'dark';
 
-    function setTheme(theme) {
+    function applyTheme(theme) {
       if (theme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
-        themeIcon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`; // Moon icon
+        themeIcon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`;
       } else {
         document.documentElement.removeAttribute('data-theme');
         themeIcon.innerHTML = `
@@ -2339,18 +2350,16 @@
           <line x1="21" y1="12" x2="23" y2="12"></line>
           <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
           <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        `; // Sun icon
+        `;
       }
-      localStorage.setItem('portfolio-theme', theme);
+      localStorage.setItem('naidu-theme', theme);
     }
-
-    setTheme(savedTheme);
+    applyTheme(savedTheme);
 
     themeToggleBtn.addEventListener('click', () => {
-      const currentTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
-      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-      setTheme(newTheme);
-      showToast(newTheme === 'light' ? 'Switched to Light mode' : 'Switched to Dark mode');
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      applyTheme(isLight ? 'dark' : 'light');
+      showToast(isLight ? 'Switched to Dark Theme' : 'Switched to Light Theme');
     });
 
     // 4. Mobile Menu Toggle
@@ -2369,188 +2378,166 @@
       });
     });
 
-    // 5. Active Navbar Link on Scroll
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-link');
+    // 5. Dynamic Hero Image Rotation
+    const heroImg = document.getElementById('hero-dynamic-img');
+    const heroImagePool = [
+      "Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.22 AM.jpeg",
+      "Images/palm_coconut_trees/WhatsApp Image 2026-08-31 at 9.59.23 AM.jpeg",
+      "Images/fruit_plants/WhatsApp Image 2026-08-31 at 10.49.31 AM.jpeg",
+      "Images/flower_decorative_plants/WhatsApp Image 2026-08-31 at 10.51.55 AM.jpeg",
+      "Images/palm_coconut_trees/Foxstail_plants.jpeg"
+    ];
+    let heroIndex = 0;
+    setInterval(() => {
+      heroIndex = (heroIndex + 1) % heroImagePool.length;
+      heroImg.style.opacity = '0.3';
+      setTimeout(() => {
+        heroImg.src = heroImagePool[heroIndex];
+        heroImg.style.opacity = '1';
+      }, 300);
+    }, 4500);
 
-    window.addEventListener('scroll', () => {
-      let current = '';
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop - 120;
-        const sectionHeight = section.clientHeight;
-        if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
-          current = section.getAttribute('id');
-        }
-      });
-
-      navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}`) {
-          link.classList.add('active');
-        }
-      });
-    });
-
-    // 6. Skills Category Filtering
-    const skillTabBtns = document.querySelectorAll('.skills-tabs .tab-btn');
-    const skillCards = document.querySelectorAll('.skill-card');
-
-    skillTabBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        skillTabBtns.forEach(b => {
-          b.classList.remove('active');
-          b.setAttribute('aria-selected', 'false');
-        });
-        btn.classList.add('active');
-        btn.setAttribute('aria-selected', 'true');
-
-        const cat = btn.getAttribute('data-category');
-        skillCards.forEach(card => {
-          if (cat === 'all' || card.getAttribute('data-category') === cat) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      });
-    });
-
-    // 7. Projects Category Filtering
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const projectCards = document.querySelectorAll('.project-card');
-
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filterValue = btn.getAttribute('data-filter');
-        projectCards.forEach(card => {
-          if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      });
-    });
-
-    // 8. Project Details Modal Data & Handlers
-    const projectDetailsData = {
-      1: {
-        title: "CloudPulse - Enterprise SaaS Analytics Platform",
-        tags: ["Next.js 14", "TypeScript", "Prisma", "PostgreSQL", "TailwindCSS"],
-        description: "A real-time telemetry and infrastructure analytics dashboard engineered for high-throughput cloud environments. Built with server components, streaming SSR, and edge caching for sub-second latency.",
-        highlights: [
-          "Optimized high-volume metrics ingestion pipeline processing 200k+ events/min.",
-          "Implemented comprehensive role-based access control (RBAC) and team workspaces.",
-          "Built custom dynamic chart components with HTML5 Canvas and SVG for smooth 60fps rendering."
-        ]
-      },
-      2: {
-        title: "Synthetix - AI Enterprise Knowledge System",
-        tags: ["Python", "FastAPI", "OpenAI API", "Pinecone Vector DB", "LangChain"],
-        description: "An intelligent retrieval-augmented generation (RAG) agent that parses internal documentation, PDFs, and API specifications to answer complex developer queries with cited references.",
-        highlights: [
-          "Hybrid search algorithm combining dense semantic vector search with BM25 keyword matching.",
-          "Reduced hallucination rate by 38% using automated fact-checking guardrails.",
-          "Deployed containerized FastAPI microservice on AWS ECS with auto-scaling."
-        ]
-      },
-      3: {
-        title: "TradeFlow - Real-Time Crypto Trading Terminal",
-        tags: ["Vue 3", "Pinia", "WebSockets", "Chart.js", "TailwindCSS"],
-        description: "High-performance financial interface that streams live ticker data, liquidity depth charts, and automated order book updates with real-time websocket connections.",
-        highlights: [
-          "Engineered ultra-low latency WebSocket state synchronizer handling 50+ tickers simultaneously.",
-          "Lightweight client bundle under 120KB for immediate initial rendering.",
-          "Integrated Web3 wallet authentication with MetaMask and WalletConnect."
-        ]
-      }
-    };
-
-    const modal = document.getElementById('project-modal');
-    const modalClose = document.getElementById('modal-close');
+    // 6. Plant Modal Lightbox
+    const plantModal = document.getElementById('plant-modal');
+    const modalImg = document.getElementById('modal-img');
     const modalTitle = document.getElementById('modal-title');
-    const modalTags = document.getElementById('modal-tags');
-    const modalDescription = document.getElementById('modal-description');
-    const modalHighlights = document.getElementById('modal-highlights');
+    const modalBotanical = document.getElementById('modal-botanical');
+    const modalDesc = document.getElementById('modal-desc');
+    const modalCare = document.getElementById('modal-care');
+    const modalClose = document.getElementById('modal-close');
+    const modalWhatsappCta = document.getElementById('modal-whatsapp-cta');
 
-    function openModal(id) {
-      const data = projectDetailsData[id];
-      if (!data) return;
+    function openPlantModal(card) {
+      const img = card.getAttribute('data-img');
+      const title = card.getAttribute('data-title');
+      const botanical = card.getAttribute('data-botanical');
+      const desc = card.getAttribute('data-desc');
+      const care = card.getAttribute('data-care');
 
-      modalTitle.textContent = data.title;
-      modalDescription.textContent = data.description;
-      
-      modalTags.innerHTML = data.tags.map(t => `<span class="project-tag">${t}</span>`).join('');
-      modalHighlights.innerHTML = data.highlights.map(h => `<li>${h}</li>`).join('');
+      modalImg.src = img;
+      modalTitle.textContent = title;
+      modalBotanical.textContent = botanical;
+      modalDesc.textContent = desc;
+      modalCare.textContent = care;
 
-      modal.classList.add('open');
-      modal.setAttribute('aria-hidden', 'false');
+      const encodedMsg = encodeURIComponent(`Hello Mr. Naidu, I am interested in ordering: ${title} (${botanical}). Please share price and availability.`);
+      modalWhatsappCta.href = `https://wa.me/919898418582?text=${encodedMsg}`;
+
+      plantModal.classList.add('open');
+      plantModal.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';
     }
 
-    function closeModal() {
-      modal.classList.remove('open');
-      modal.setAttribute('aria-hidden', 'true');
+    function closePlantModal() {
+      plantModal.classList.remove('open');
+      plantModal.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
     }
 
-    document.querySelectorAll('.view-details-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const id = btn.getAttribute('data-id');
-        openModal(id);
-      });
+    document.querySelectorAll('.open-modal-btn').forEach(card => {
+      card.addEventListener('click', () => openPlantModal(card));
     });
 
-    modalClose.addEventListener('click', closeModal);
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) closeModal();
+    modalClose.addEventListener('click', closePlantModal);
+    plantModal.addEventListener('click', (e) => {
+      if (e.target === plantModal) closePlantModal();
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && modal.classList.contains('open')) {
-        closeModal();
+      if (e.key === 'Escape' && plantModal.classList.contains('open')) {
+        closePlantModal();
       }
+    });
+
+    // 7. Interactive Cost Calculator
+    const calcSubmitBtn = document.getElementById('calc-submit-btn');
+    const calcResult = document.getElementById('calc-result');
+    const calcEstTitle = document.getElementById('calc-est-title');
+    const calcEstDesc = document.getElementById('calc-est-desc');
+    const calcWhatsappBtn = document.getElementById('calc-whatsapp-btn');
+
+    calcSubmitBtn.addEventListener('click', () => {
+      const service = document.getElementById('calc-service').value;
+      const unit = document.getElementById('calc-land-unit').value;
+      const qty = parseFloat(document.getElementById('calc-qty').value) || 1;
+      const irrigation = document.getElementById('calc-irrigation').value === 'yes';
+
+      let baseCost = 0;
+      let serviceName = '';
+      let details = '';
+
+      if (service === 'fruit') {
+        serviceName = 'Fruit Plantation & Orchard';
+        baseCost = (unit === 'acre' ? qty * 85000 : unit === 'bigha' ? qty * 45000 : qty * 150);
+        details = `Approx ${Math.round(unit === 'acre' ? qty * 180 : qty * 90)} grafted plants (Mango, Guava, Chikoo, Panas, etc.), pit digging, organic soil enrichment & planting labor.`;
+      } else if (service === 'coconut') {
+        serviceName = 'Dwarf Coconut & Palm Grove';
+        baseCost = (unit === 'acre' ? qty * 95000 : unit === 'bigha' ? qty * 50000 : qty * 200);
+        details = `Approx ${Math.round(unit === 'acre' ? qty * 80 : qty * 40)} Malaysian Dwarf & Yellow Gold Coconut plants with organic fertilization.`;
+      } else if (service === 'farmhouse') {
+        serviceName = 'Luxury Farmhouse & Landscape Package';
+        baseCost = (unit === 'acre' ? qty * 350000 : unit === 'bigha' ? qty * 190000 : qty * 600);
+        details = `Full landscape design, avenue palms, lawn turfing, gazebo foundation, and flowering perimeter.`;
+      } else if (service === 'solar-fence') {
+        serviceName = 'Solar Electric Fencing';
+        const feet = (unit === 'running-ft' ? qty : (unit === 'acre' ? qty * 850 : qty * 500));
+        baseCost = feet * 140;
+        details = `10KV Solar energizer system, battery unit, multi-strand high-tensile wire, lightning arrestor, and alarms for ~${Math.round(feet)} running ft.`;
+      } else {
+        serviceName = 'Chain-Link Boundary Fencing';
+        const feet = (unit === 'running-ft' ? qty : (unit === 'acre' ? qty * 850 : qty * 500));
+        baseCost = feet * 185;
+        details = `Heavy GI diamond mesh, concrete foundation posts, support angles & barbed wire topping for ~${Math.round(feet)} running ft.`;
+      }
+
+      if (irrigation && (service === 'fruit' || service === 'coconut' || service === 'farmhouse')) {
+        baseCost += (unit === 'acre' ? qty * 35000 : unit === 'bigha' ? qty * 20000 : qty * 40);
+        details += ' + Complete sub-surface Drip Irrigation & filtration system included.';
+      }
+
+      const formattedCost = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(baseCost);
+
+      calcEstTitle.textContent = `Estimated Package: ${formattedCost}*`;
+      calcEstDesc.textContent = details;
+
+      const waText = encodeURIComponent(`Hello Mr. Naidu, I calculated an estimate for ${serviceName} (${qty} ${unit}). Estimated range: ${formattedCost}. Please share formal quote.`);
+      calcWhatsappBtn.href = `https://wa.me/919898418582?text=${waText}`;
+
+      calcResult.style.display = 'block';
+      calcResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      showToast('Estimate calculated successfully!');
+    });
+
+    // 8. Contact Form Handler (Auto WhatsApp trigger + Toast)
+    const contactForm = document.getElementById('estate-contact-form');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('client-name').value;
+      const phone = document.getElementById('client-phone').value;
+      const interest = document.getElementById('client-interest').value;
+      const msg = document.getElementById('client-msg').value;
+
+      showToast(`Thank you ${name}! Opening WhatsApp to connect with Mr. Naidu...`);
+
+      const text = encodeURIComponent(`*New Website Inquiry*\nName: ${name}\nPhone: ${phone}\nRequirement: ${interest}\nDetails: ${msg || 'None provided'}`);
+      
+      setTimeout(() => {
+        window.open(`https://wa.me/919898418582?text=${text}`, '_blank');
+        contactForm.reset();
+      }, 1200);
     });
 
     // 9. Toast Notification Helper
     const toast = document.getElementById('toast');
-    const toastMessage = document.getElementById('toast-message');
-    let toastTimeout;
-
+    const toastMsg = document.getElementById('toast-message');
+    let toastTimer;
     function showToast(message) {
-      toastMessage.textContent = message;
+      toastMsg.textContent = message;
       toast.classList.add('show');
-      clearTimeout(toastTimeout);
-      toastTimeout = setTimeout(() => {
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
         toast.classList.remove('show');
       }, 3500);
-    }
-
-    // 10. Copy Email to Clipboard
-    const copyEmailBtn = document.getElementById('copy-email-btn');
-    if (copyEmailBtn) {
-      copyEmailBtn.addEventListener('click', () => {
-        navigator.clipboard.writeText('alex.morgan.dev@example.com').then(() => {
-          showToast('Email copied to clipboard!');
-        }).catch(() => {
-          showToast('Failed to copy email');
-        });
-      });
-    }
-
-    // 11. Contact Form Submission Handler
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-      contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        showToast(`Thank you, ${name}! Your message has been sent.`);
-        contactForm.reset();
-      });
     }
   </script>
 </body>
