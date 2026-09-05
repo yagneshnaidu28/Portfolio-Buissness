@@ -1,7 +1,7 @@
 /**
  * ==========================================================================
  * MALLARAPU GURUNADHA NAIDU - Main JavaScript Controller
- * Interactivity: Themes, Live Filter, Modal Lightbox, Estimator, Mobile Nav
+ * Interactivity: Live Search Filter, Modal Lightbox, Mobile Nav, Scroll Bar
  * ==========================================================================
  */
 
@@ -40,46 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. Theme Toggle (Dark / Light) with LocalStorage
-  const themeToggleBtn = document.getElementById('theme-toggle');
-  const themeIcon = document.getElementById('theme-icon');
-  const savedTheme = localStorage.getItem('naidu-theme') || 'dark';
-
-  function applyTheme(theme) {
-    if (theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-      if (themeIcon) {
-        themeIcon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`;
-      }
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-      if (themeIcon) {
-        themeIcon.innerHTML = `
-          <circle cx="12" cy="12" r="5"></circle>
-          <line x1="12" y1="1" x2="12" y2="3"></line>
-          <line x1="12" y1="21" x2="12" y2="23"></line>
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-          <line x1="1" y1="12" x2="3" y2="12"></line>
-          <line x1="21" y1="12" x2="23" y2="12"></line>
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        `;
-      }
-    }
-    localStorage.setItem('naidu-theme', theme);
-  }
-
-  applyTheme(savedTheme);
-
-  if (themeToggleBtn) {
-    themeToggleBtn.addEventListener('click', () => {
-      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-      applyTheme(isLight ? 'dark' : 'light');
-    });
-  }
-
-  // 4. Mobile Navigation Drawer
+  // 3. Mobile Navigation Drawer
   const hamburgerBtn = document.getElementById('hamburger-btn');
   const mobileMenu = document.getElementById('mobile-menu');
 
@@ -97,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Modal Lightbox
+  // 4. Modal Lightbox
   const plantModal = document.getElementById('plant-modal');
   const modalCloseBtn = document.getElementById('modal-close');
   const modalImg = document.getElementById('modal-img');
@@ -180,61 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 6. Dynamic Cost Estimator Calculation
-  window.calculateEstimate = function() {
-    const landSizeSelect = document.getElementById('est-land-size');
-    const fruitTypeSelect = document.getElementById('est-fruit-type');
-    const boundaryPalmsSelect = document.getElementById('est-boundary-palms');
-    const fencingTypeSelect = document.getElementById('est-fencing-type');
-
-    if (!landSizeSelect) return;
-
-    const vigha = parseFloat(landSizeSelect.value) || 3;
-    const fruit = fruitTypeSelect ? fruitTypeSelect.value : 'kesar';
-    const palms = boundaryPalmsSelect ? boundaryPalmsSelect.value : 'malaysian-coconut';
-    const fence = fencingTypeSelect ? fencingTypeSelect.value : 'chainlink';
-
-    // Base fruit plantation cost per vigha (plants + digging + organic manuring)
-    let fruitCostPerVigha = 28000;
-    if (fruit === 'miyazaki') fruitCostPerVigha = 65000;
-    if (fruit === 'guava') fruitCostPerVigha = 22000;
-    if (fruit === 'mixed') fruitCostPerVigha = 35000;
-
-    // Perimeter palm trees
-    let palmCost = 0;
-    if (palms === 'malaysian-coconut') palmCost = vigha * 18000;
-    if (palms === 'foxtail-palms') palmCost = vigha * 32000;
-    if (palms === 'areca-palms') palmCost = vigha * 25000;
-
-    // Boundary perimeter (approx 380-420 RFT per Vigha)
-    let fenceCost = 0;
-    const rft = Math.round(Math.sqrt(vigha) * 380);
-    if (fence === 'chainlink') fenceCost = rft * 140;
-    if (fence === 'solar') fenceCost = rft * 95 + 25000;
-    if (fence === 'combo') fenceCost = rft * 210 + 25000;
-    if (fence === 'rcc-wall') fenceCost = rft * 420;
-
-    const subtotalMin = Math.round((fruitCostPerVigha * vigha + palmCost + fenceCost) * 0.95);
-    const subtotalMax = Math.round((fruitCostPerVigha * vigha + palmCost + fenceCost) * 1.15);
-
-    const formatter = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 });
-    const outputElem = document.getElementById('estimate-output-val');
-    if (outputElem) {
-      outputElem.textContent = `${formatter.format(subtotalMin)} - ${formatter.format(subtotalMax)}`;
-    }
-
-    // Update WhatsApp direct quote button
-    const waBtn = document.getElementById('estimator-wa-btn');
-    if (waBtn) {
-      const waMsg = encodeURIComponent(`Hello Mr. Naidu, I calculated an estimate for ${vigha} Vigha land (Fruit: ${fruit}, Palms: ${palms}, Fencing: ${fence}). Estimated budget: ${formatter.format(subtotalMin)} - ${formatter.format(subtotalMax)}. Please provide an itemized official quotation.`);
-      waBtn.href = `https://wa.me/919898418582?text=${waMsg}`;
-    }
-  };
-
-  // Initial calculation
-  window.calculateEstimate();
-
-  // 7. Contact Form WhatsApp Handler
+  // 5. Contact Form WhatsApp Handler
   window.handleFormSubmit = function(e) {
     e.preventDefault();
     const name = document.getElementById('inq-name')?.value || '';
@@ -247,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
-// 8. Global Filter Function for Search Inputs
+// 6. Global Filter Function for Search Inputs
 window.filterCatalog = function(inputElem, gridId) {
   const term = (inputElem.value || '').toLowerCase().trim();
   const grid = document.getElementById(gridId);
